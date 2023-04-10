@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -39,7 +40,7 @@ footer{
 /* untuk header */
 header{
     position: absolute;
-    background-color: #0ba2c4;
+    background-color: #ffffff;
     top: 0;
     left: 0;
     width: 100%;
@@ -48,6 +49,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    position: sticky;
 }
 
 .group{
@@ -84,4 +87,13 @@ header .search
     z-index: 10;
     cursor: pointer;
     color: aliceblue;
+}
+
+@media (max-width : 767px){
+    footer{
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
 }
