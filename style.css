@@ -156,8 +156,31 @@ form.search-desktop{
     border: 1px solid rgb(0, 0, 0);
 }
 
+/* kemitraan */
+#carouselExampleAutoplaying{
+    display: none;
+}
 
+.footerpdd{
+    padding-top: 50px;
+}
 
+/* sidebar*/
+
+.sidebarmobile a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.sidebarmobile{
+    display: none;
+}
+
+.sidebarmobile{
+    color: white;
+    font-size: large;
+}
 /* responsive */
 
 @media  screen and (max-width : 720px){
@@ -216,7 +239,7 @@ form.search-desktop{
     }
 
     .logounrifoot{
-        margin: 0 auto;
+        margin: 0 auto !important;
         position: relative;
         display: flex;
         justify-content: center;
@@ -224,7 +247,7 @@ form.search-desktop{
     }
 
     .logounrifoot{
-        width: 300px;
+        width: 200px;
     }
 
     .judulfooter::after{
@@ -238,6 +261,37 @@ form.search-desktop{
         .footbg{
             width: 100%;
             height: auto;
+        }
+
+        .kemitraandesktop{
+            display: none;
+        }
+
+        #carouselExampleAutoplaying{
+            display: block;
+        }
+        
+        .footerpdd{
+            padding-top: 0;
+        }
+
+        .footbg{
+            padding-bottom: 20px;
+        }
+
+        .sidebarmobile{
+            position: fixed;
+            z-index: 100;
+            left: -100vw;
+            display: block;
+        }
+
+        .logodanclose{
+            display: flex;
+        }
+
+        .close{
+            display: none;
         }
 
 }
