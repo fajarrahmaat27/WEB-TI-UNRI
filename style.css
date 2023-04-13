@@ -116,6 +116,7 @@ nav a{
 
 .toggle{
     font-size: 30px;
+
     display: none;
     color: white;
 }
@@ -133,6 +134,7 @@ nav a{
 
 .logo-head.mobile{
     display: none;
+    
 }
 
 .search-mobile{
@@ -226,7 +228,7 @@ form.search-desktop{
     .logo-head.mobile {
         display: block;
         position: relative;
-        left: 50px;
+        left: 30px;
     }
 
     .logo-head.mobile img {
@@ -294,6 +296,7 @@ form.search-desktop{
             position: fixed;
             z-index: 100;
             left: -100vw;
+            transition: all .5s ease-in-out;
             display: block;
         }
 
@@ -301,7 +304,7 @@ form.search-desktop{
             display: flex;
         }
 
-        .close{
+        .toggle .close-btn {
             display: none;
         }
         
