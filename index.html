@@ -23,7 +23,7 @@
 
 	</div>
 
-	<nav style="display: flex; justify-content: space-between;">
+	<nav style="display: flex; justify-content: space-between; position: sticky; top: 0; z-index: 1000;">
 		<div class="toggle">
 			<a class="close" href=""><ion-icon name="close-circle-outline"></ion-icon></a>
 			<a href=""><ion-icon name="menu-outline"></ion-icon></a>
@@ -90,12 +90,13 @@
 	  <section id="Profile" style="margin-top: 0; background-color: #F6F0E4;">
 		<div class="container pt-5 pb-5">
 			<div class="row">
-				<div class="col-md-6 text-center">
-					<img src="Asset 2.png" alt="" style="width: 500px;">
+				<div class="col-sm-6 d-flex flex-column align-items-center text-center p-0" style="justify-content: center;"> 
+					<img class="profiledesktop align-center" src="Asset 2.png" alt="" >
+					<img class="profilemobile" src="Asset 2.png" alt="">
 				</div>
 				<div class="col-md-6 text-center">
 					<h1 style="color: black" class="font-weight-bold mb-3">Profile</h1>
-					<p style="color: black; text-align: left;">Program Studi Teknik Informatika merupakan salah satu program studi sarjana yang ada di Universitas Riau (UNRI). Program Studi Teknik Informatika berada di bawah Jurusan Teknik Elektro. Program Studi Teknik Informatika bisa dikatakan sebagai.... </p>
+					<p style="color: black; text-align: left; padding: 0 20px;">Program Studi Teknik Informatika merupakan salah satu program studi sarjana yang ada di Universitas Riau (UNRI). Program Studi Teknik Informatika berada di bawah Jurusan Teknik Elektro. Program Studi Teknik Informatika bisa dikatakan sebagai.... </p>
 					<button class="btn-primary"
 						style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond; padding: 2px 20px; border: none;">Read
 						More</button>
@@ -285,7 +286,7 @@
 
 	<!--Kemitraan-->
 	<section id="Kemitraan">
-		<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+		<div id="carouselExampleAutoplaying" class="carousel slide carouselkemitraan" data-bs-ride="carousel">
 			<div class="carousel-inner">
 			  <div class="carousel-item active">
 				<img src="logo/kemitraan1.png" class="d-block w-100" alt="...">

@@ -157,7 +157,7 @@ form.search-desktop{
 }
 
 /* kemitraan */
-#carouselExampleAutoplaying{
+.carouselkemitraan{
     display: none;
 }
 
@@ -181,6 +181,17 @@ form.search-desktop{
     color: white;
     font-size: large;
 }
+
+/* profile */
+.profilemobile{
+    display: none;
+}
+
+.profiledesktop{
+    width: 500px;
+    padding: 10px;
+}
+
 /* responsive */
 
 @media  screen and (max-width : 720px){
@@ -292,6 +303,17 @@ form.search-desktop{
 
         .close{
             display: none;
+        }
+        
+        .profiledesktop{
+            display: none;
+        }
+
+        .profilemobile{
+            display: flex;
+            padding: 10px;
+            width: 30px;
+            
         }
 
 }
