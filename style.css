@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins:wght@200;500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,11 +11,15 @@ body{
     overflow-x: hidden;
 }
 
-#Project{
-    background: url(Asset\ 3.png);
+#akademik-desktop{
+    background-image: url(akademiklagi2.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 30px;
+}
+
+#akademik-mobile{
+    display: none;
 }
 
 /* unutk bg footer */
@@ -76,6 +81,16 @@ background-color: white;
     margin: 0px 5px;
 }
 
+.top-bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 200px;
+    font-family: 'Poppins' sans-serif;
+    margin-right: 5px;
+    padding: 0 5px;
+}
+
 .logo-head img{
     width: 200px;
     margin-right: 10px;
@@ -112,11 +127,14 @@ nav a{
 .menu a{
     list-style: none;
     text-decoration: none;
+    font-size: 17px;
+    font-weight: 570;
+    font-family: 'Poppins' sans-serif;
+   
 }
 
 .toggle{
     font-size: 30px;
-
     display: none;
     color: white;
 }
@@ -182,6 +200,7 @@ form.search-desktop{
 .sidebarmobile{
     color: white;
     font-size: large;
+    width: 250px;
 }
 
 /* profile */
@@ -194,9 +213,20 @@ form.search-desktop{
     padding: 10px;
 }
 
+.bgprofilemb{
+    padding: 0;
+    margin: 0;
+}
+
+/* dropdown */
+.sub-menu-1{
+    display: none;
+}
+
+
 /* responsive */
 
-@media  screen and (max-width : 720px){
+@media  screen and (max-width : 1115px){
     nav{
         display: flex;
         position: relative;
@@ -206,7 +236,6 @@ form.search-desktop{
         background-color: #1B3659;
         
     }
-
     .menu{
         margin-top: 15px;
         display: none;
@@ -250,7 +279,26 @@ form.search-desktop{
     .search-mobile a{
         color: white;
     }
+    .sidebarmobile{
+        position: fixed;
+        z-index: 100;
+        left: -100vw;
+        transition: all .5s ease-in-out;
+        display: block;
+    }
 
+    .logodanclose{
+        display: flex;
+    }
+
+    .toggle .close-btn {
+        display: none;
+    }
+
+}
+
+
+@media  screen and (max-width : 720px){
     .logounrifoot{
         margin: 0 auto !important;
         position: relative;
@@ -291,22 +339,6 @@ form.search-desktop{
         .footbg{
             padding-bottom: 20px;
         }
-
-        .sidebarmobile{
-            position: fixed;
-            z-index: 100;
-            left: -100vw;
-            transition: all .5s ease-in-out;
-            display: block;
-        }
-
-        .logodanclose{
-            display: flex;
-        }
-
-        .toggle .close-btn {
-            display: none;
-        }
         
         .profiledesktop{
             display: none;
@@ -314,10 +346,47 @@ form.search-desktop{
 
         .profilemobile{
             display: flex;
-            padding: 10px;
-            width: 350px;
-            
+            padding: 0px;
+            width: 370px;
+            text-align: center;
         }
 
 }
     
+
+/* navbar media */
+@media  screen and (min-width : 993px) {
+    .dropdown .dropdown-menu{
+        display: none;
+    }
+    .dropdown:hover > .dropdown-menu 
+    {
+        margin-top: 20px;
+        display: block !important;
+    }
+    .dropstart:hover > .dropdown-menu{
+        display: block !important;
+    }
+
+    .dropstart:hover > .dropdown-menu{
+        position: absolute;
+        bottom: -10px;
+        right: 100%;
+    }
+
+    
+}
+
+@media  screen and (max-width : 768px){
+    #akademik-desktop{
+        display: none;
+    }
+
+    #akademik-mobile{
+        display: block;
+        background-image: url(akdemikmobile.png);
+        background-repeat: no-repeat;
+        background-size:auto;
+
+    }
+}
