@@ -12,7 +12,7 @@ body{
 }
 
 #akademik-desktop{
-    background-image: url(akademiklagi2.png);
+    background-image: url(Asset\ 53.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 30px;
@@ -384,9 +384,8 @@ form.search-desktop{
 
     #akademik-mobile{
         display: block;
-        background-image: url(akdemikmobile.png);
+        background-image: url(Asset\ 56.png);
         background-repeat: no-repeat;
         background-size:auto;
-
     }
 }
