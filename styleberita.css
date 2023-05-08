@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins:wght@200;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+
+/* unutk bg footer */
+
+footer{
+    background: url(unri-ffooter.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+
+.judulfooter::after{
+content: "";
+display: block;
+width: 100%;
+height: 3px;
+background-color: white;
+}
+
+
+.bullet{
+    display: flex;
+    align-items: center;
+}
+.bullet::before{
+    content: "";
+    margin-right:5px;
+    height: 10px;
+    background-color: white;
+    width: 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+
+
+/* Header */
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background-color: #1B3659 ;
+    color: white;
+}
+
+.top-bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.top-bar li{
+    list-style: none;
+    display: flex;
+    margin: 0px 5px;
+}
+
+.top-bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 200px;
+    font-family: 'Poppins' sans-serif;
+    margin-right: 5px;
+    padding: 0 5px;
+}
+
+.logo-head img{
+    width: 200px;
+    margin-right: 10px;
+}
+
+nav{
+    background: white;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color: black ;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li{
+    padding: 15px 10px;
+    font-size: 16px; 
+}
+
+.menu a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 570;
+    font-family: 'Poppins' sans-serif;
+   
+}
+
+.toggle{
+    font-size: 30px;
+    display: none;
+    color: white;
+}
+
+.toggle a{
+    color: white;
+}
+/* untuk garisjudul */
+.garisjudul{
+    width: 100%;
+    background-color:#1B3659 ;
+    height: 3px;
+    display: block;
+}
+
+.logo-head.mobile{
+    display: none;
+    
+}
+
+.search-mobile{
+    display: none;
+}
+
+.search-mobile a{
+    color: white;
+    font-size: larger;
+}
+
+form.search-desktop{
+    display: flex;
+}
+
+
+.footerpdd{
+    padding-top: 50px;
+}
+
+/* sidebar*/
+
+.sidebarmobile a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.sidebarmobile{
+    display: none;
+}
+
+.sidebarmobile{
+    color: white;
+    font-size: large;
+    width: 250px;
+}
+
+/* dropdown */
+.sub-menu-1{
+    display: none;
+}
+
+/* berita */
+.berita{
+    background-image: url(bgjudul\ berita.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.isiberita{
+    margin-top: 50px;
+}
+
+.isiberita .p{
+    text-align: center;
+}
+
+/* responsive */
+
+@media  screen and (max-width : 1115px){
+    nav{
+        display: flex;
+        position: relative;
+        padding: 15px 20px;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #1B3659;
+        
+    }
+    .menu{
+        margin-top: 15px;
+        display: none;
+    }
+
+    .toggle{
+        color: white;
+        position: absolute;
+        display: flex;
+    }
+    .logo-head{
+        display: block;
+    }
+
+    .logo-head.desktop {
+        display: none;
+    }
+
+    .logo-head.mobile {
+        display: block;
+        position: relative;
+        left: 30px;
+    }
+
+    .logo-head.mobile img {
+        width: 50px;
+    }
+
+    .top-bar{
+        display: none;
+    }
+
+    form.search-desktop{
+        display: none;
+    }
+
+    .search-mobile{
+        display: flex;
+    }
+
+    .search-mobile a{
+        color: white;
+    }
+    .sidebarmobile{
+        position: fixed;
+        z-index: 100;
+        left: -100vw;
+        transition: all .5s ease-in-out;
+        display: block;
+    }
+
+    .logodanclose{
+        display: flex;
+    }
+
+    .toggle .close-btn {
+        display: none;
+    }
+
+}
+
+
+@media  screen and (max-width : 720px){
+    .logounrifoot{
+        margin: 0 auto !important;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logounrifoot{
+        width: 200px;
+    }
+
+    .judulfooter::after{
+        content: "";
+        display: block;
+        width: 80%;
+        height: 3px;
+        background-color: white;
+        }
+
+        .footbg{
+            width: 100%;
+            height: auto;
+        }
+        
+        .footerpdd{
+            padding-top: 0;
+        }
+
+        .footbg{
+            padding-bottom: 20px;
+        }
+
+}
+    
+
+/* navbar media */
+@media  screen and (min-width : 993px) {
+    .dropdown .dropdown-menu{
+        display: none;
+    }
+    .dropdown:hover > .dropdown-menu 
+    {
+        margin-top: 20px;
+        display: block !important;
+    }
+    .dropstart:hover > .dropdown-menu{
+        display: block !important;
+    }
+
+    .dropstart:hover > .dropdown-menu{
+        position: absolute;
+        bottom: -10px;
+        right: 100%;
+    }
+
+    
+}
+
