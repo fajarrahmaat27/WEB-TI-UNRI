@@ -29,6 +29,11 @@ height: 3px;
 background-color: white;
 }
 
+.judulberita{
+    padding-top: 75px;
+    padding-left: 40px;
+    align-items: center;
+}
 
 .bullet{
     display: flex;
@@ -135,6 +140,32 @@ nav a{
     background-color:#1B3659 ;
     height: 3px;
     display: block;
+}
+
+.teksgarisjudul{
+    display: flex;
+    align-items: center;
+}
+
+
+.teksgarisjudul::before{
+    content: "";
+    margin-right:5px;
+    height: 15px;
+    background-color: #1B3659;
+    width: 15px;
+    display: block;
+    border-radius: 50%;
+}
+
+.teksgarisjudul::after{
+    content: "";
+    margin-left:5px;
+    height: 15px;
+    background-color: #1B3659;
+    width: 15px;
+    display: block;
+    border-radius: 50%;
 }
 
 .logo-head.mobile{
@@ -331,5 +362,12 @@ form.search-desktop{
     }
 
     
+}
+
+/* responsive judul berita */
+@media  screen and (max-width : 404px){
+    .judulberita{
+        padding-top: 30px;
+    }
 }
 
