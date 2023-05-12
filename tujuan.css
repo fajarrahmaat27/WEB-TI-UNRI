@@ -11,35 +11,47 @@ body{
     overflow-x: hidden;
 }
 
-
-/* event utama */
-@media  screen and (max-width : 1020px){
-    .eventutama{
-        width: 750px;
+.judulfooter::after{
+    content: "";
+    display: block;
+    width: 80%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
     }
 
+    .judulfooterr::after{
+        content: "";
+        display: block;
+        width: 30%;
+        height: 3px;
+        background-color: #1b3659;
+        position: absolute;
+        left: 36%
+        }
+
+.tujuan{
+    width: 1400px;
+}        
+
+.btn {
+    text-decoration: none;
+            border: none;
+            padding: 8px 30px;
+            font-size: 16px;
+            background-color: #1B3659;
+            border-radius: 15px;
+            font-weight: bold;
 }
 
-@media  screen and (max-width : 760px){
-    .eventutama{
-        width: 600px;
-    }
-
+.btn:hover{
+    background-color: #102138;
 }
 
-@media  screen and (max-width : 623px){
-    .eventutama{
-        width: 450px;
-    }
-
+.btn:active{
+    color: #000;
+    background-color: #fff;
 }
 
-@media  screen and (max-width : 463px){
-    .eventutama{
-        width: 350px;
-    }
-
-}
 /* unutk bg footer */
 
 footer{
@@ -72,31 +84,7 @@ background-color: white;
     border-radius: 50%;
 }
 
-.teksgarisjudul{
-    display: flex;
-    align-items: center;
-}
 
-
-.teksgarisjudul::before{
-    content: "";
-    margin-right:5px;
-    height: 15px;
-    background-color: #1B3659;
-    width: 15px;
-    display: block;
-    border-radius: 50%;
-}
-
-.teksgarisjudul::after{
-    content: "";
-    margin-left:5px;
-    height: 15px;
-    background-color: #1B3659;
-    width: 15px;
-    display: block;
-    border-radius: 50%;
-}
 
 
 
@@ -191,6 +179,32 @@ nav a{
     display: block;
 }
 
+.teksgarisjudul{
+    display: flex;
+    align-items: center;
+}
+
+
+.teksgarisjudul::before{
+    content: "";
+    margin-right:5px;
+    height: 15px;
+    background-color: #1B3659;
+    width: 15px;
+    display: block;
+    border-radius: 50%;
+}
+
+.teksgarisjudul::after{
+    content: "";
+    margin-left:5px;
+    height: 15px;
+    background-color: #1B3659;
+    width: 15px;
+    display: block;
+    border-radius: 50%;
+}
+
 .logo-head.mobile{
     display: none;
     
@@ -244,6 +258,21 @@ form.search-desktop{
     background-size: cover;
     height: 300px;
 }
+
+/* caraousel image */
+img{
+    max-width: 100%;
+}
+
+.splide__pagination{
+ bottom: -2rem;
+}
+
+.splide__pagination__page.is-active{
+    opacity: 1;
+    background-color: blue;
+}
+
 
 
 
@@ -380,3 +409,4 @@ form.search-desktop{
 
     
 }
+
