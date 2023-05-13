@@ -20,24 +20,12 @@ footer{
     background-size:cover ;
 }
 
+.ftbagian a{
+    text-decoration: none;
+    color: white;
+}
 
-
-    .bullet{
-        display: flex;
-        align-items: center;
-    }
-    .bullet::before{
-        content: "";
-        margin-right:5px;
-        height: 10px;
-        background-color: white;
-        width: 10px;
-        display: block;
-        border-radius: 50%;
-    }
-
-
-.judulfooter::after{
+.ftbagianjudulatas::after{
 content: "";
 display: block;
 width: 100%;
@@ -45,12 +33,17 @@ height: 3px;
 background-color: white;
 }
 
+.ftbagianjudulatas a{
+    text-decoration: none;
+    color: white;
+}
 
-.bullet{
+
+.ftbagian{
     display: flex;
     align-items: center;
 }
-.bullet::before{
+.ftbagian::before{
     content: "";
     margin-right:5px;
     height: 10px;
@@ -60,30 +53,46 @@ background-color: white;
     border-radius: 50%;
 }
 
-.btnnext a {
+.ftbagiankontak a{
     text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
-  }
-  
- .btnnext a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .btnnext .previous {
-    background-color: #f1f1f1;
-    color: black;
-  }
-  
-  .btnnext .next {
-    background-color: #04AA6D;
     color: white;
-  }
-  
-  .btnnext .round {
+}
+
+
+/* card */
+.card{
+    border:none;
+    box-shadow: 5px 5px 10px 3px black;
+    border-radius: 0px;
+}
+
+
+/* judul garis bulat */
+.teksgarisjudul{
+    display: flex;
+    align-items: center;
+}
+
+
+.teksgarisjudul::before{
+    content: "";
+    margin-right:5px;
+    height: 15px;
+    background-color: #1B3659;
+    width: 15px;
+    display: block;
     border-radius: 50%;
-  }
+}
+
+.teksgarisjudul::after{
+    content: "";
+    margin-left:5px;
+    height: 15px;
+    background-color: #1B3659;
+    width: 15px;
+    display: block;
+    border-radius: 50%;
+}
 
 
 
@@ -161,6 +170,10 @@ nav a{
    
 }
 
+.eventutama{
+    width: 1000px;
+}
+
 .toggle{
     font-size: 30px;
     display: none;
@@ -230,6 +243,12 @@ form.search-desktop{
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+}
+
+/* untuk judul event atau berita atau prestasi mahasiswa */
+
+.judulevent{
+    font-weight: bold;
 }
 
 
@@ -344,6 +363,36 @@ form.search-desktop{
 
 }
     
+/* event utama */
+@media  screen and (max-width : 1020px){
+    .eventutama{
+        width: 750px;
+    }
+
+}
+
+@media  screen and (max-width : 760px){
+    .eventutama{
+        width: 600px;
+    }
+
+}
+
+@media  screen and (max-width : 623px){
+    .eventutama{
+        width: 450px;
+    }
+
+}
+
+@media  screen and (max-width : 463px){
+    .eventutama{
+        width: 350px;
+    }
+
+}
+
+
 
 /* navbar media */
 @media  screen and (min-width : 993px) {

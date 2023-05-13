@@ -36,7 +36,7 @@
 		</div>
 		<form style="border : 2px solid black; border-radius: 30px; padding: 5px 20px; margin-left: 220px;" class="search-desktop" action=""><input type="text" placeholder="Search..." style="border: none; text-indent: 10px;outline: none;"> <div><ion-icon name="search-outline" style="font-size: larger;"></ion-icon></div></form>
 		<ul class="menu">
-			<li><a href="#">Beranda</a></li>
+			<li><a href="index.html">Beranda</a></li>
 			<!-- <li><a href="#">Profile</a> -->
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown" href="#"  data-bs="dropdown" aria-expanded="false">
@@ -62,22 +62,19 @@
 					  </li>
 					</ul>
 				  </li>
-				<div class="sub-menu-1">
-					<ul>
-						<li><a href="">Sejarah</a></li>
-						<li><a href="">Visi & Misi</a></li>
-						<li><a href="">Tujuan</a></li>
-						<li><a href="">Sasaran</a></li>
-						<li><a href="">Strategi</a></li>
-						<li><a href="">Akreditasi</a></li>
-						<li><a href="">Dosen</a></li>
-						<li><a href="">Tenaga Kependidikan</a></li>
-						<li><a href="">Lab. Komputer & Jaringan</a></li>
-						<li><a href="">Lab. Rekayasa Perangkat Lunak</a></li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown" href="#"  data-bs="dropdown" aria-expanded="false">
+					  Galeri
+					</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="foto.html">Foto</a></li>
+						<li><a class="dropdown-item" href="vidio.html">Video</a></li>
+						<li><a class="dropdown-item" href="virtualtour.html">Virtual Tour</a></li>
+						<li><a class="dropdown-item" href="kontak.html">Kontak</a></li>
+					  </li>
 					</ul>
-				</div>
+				  </li>
 			</li>
-			<li><a href="#">Galeri</a></li>
 			<li><a href="#">Sertfikasi</a></li>
 			<li><a href="#">Kategori</a></li>
 		</ul>
@@ -110,9 +107,9 @@
 
 	<!-- event -->
 
-	<div class="card mx-auto mt-5" style="width: 1000px;">
-		<img src="folder category event/event1.jpg" class="card-img-top" alt="...">
-		<div class="card-body">
+	<div class="card mx-auto mt-5 mb-5 eventutama">
+		<img src="Front End/Gambar/folder category event/event1.jpg" class="card-img-top" alt="...">
+		<div class="card-body"> 
 			<h5 class="card-title pb" style="font-size: 36px;"> <b> [EVENT] Orientasi Program FGA DTS 2022</b> </h5>
 			<p style="font-size: medium; margin-top: 20px; margin-bottom: 20px;">13 JULY 2022 / BY DIAN RAMADHANI / EVENT</p>
 			<p class="card-text " style="font-size: 18px; margin-bottom: 50px; ">Fresh Graduate Academy Digital Talent Scholarship (FGA DTS) 2022  Program Studi Teknik Informatika Universitas Riau kembali bekerja sama dengan Kementerian Komunikasi dan Informatika RI menyelenggarakan Program Fresh Graduate Academy Digital Talent Scholarship (FGA DTS) Tahun 2022. Tahun ini,  pelatihan terselenggara di 57 Perguruan Tinggi baik negeri maupun swasta yang tersebar di seluruh Indonesia.  Universitas Riau (UNRI) merupakan...</p>
@@ -126,27 +123,18 @@
 
 
 
-
-
 	<!--Konten/Berita-->
 	<section id="Berita">
-		<div class="container-fluid  pt-2">
-			<div class="row text-center mb-5">
-				<div class="col">
-					<!-- <div class="row"
-						style="display: flex; align-items: center; justify-content: center; padding-top:30px ;">
-						
-					</div> -->
-				</div>
-			</div>
-			<div class="row justify-content-center p-5 pt-0">
-				<div class="col-md-4 mb-5">
-					<div class="card ">
-						<img src="Asset 5.png" class="card-img-top" alt="..." height="300" />
+		<div class="container-fluid pt-2">
+			<div class="row justify-content-center pe-5 ps-5 pt-0" style="font-family: Poppins;">
+				<div class="col-md-4 col-sm-6 mb-5" >
+					<div class="card">
+						<img src="Front End/Gambar/folder category event/event2.jpg" class="card-img-top" alt="..." height="300" />
 						<div class="card-body" heigh>
-							<p class="card-text">[EVENT] WEBINAR : How to
+							<p class="card-text judulevent">[EVENT] WEBINAR : How to
 								Create a Project/Research 
 								Poster </p>
+								<p style="font-size: small; margin-bottom: 20px;">15 JUNE 2022 / BY DIAN RAMADHANI / EVENT</p>
 							<div class="text-center">
 								<button class="btn-primary"
 									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond; padding: 2px 20px; border: none;">Read
@@ -155,12 +143,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-md-4 col-sm-6 mb-5">
 					<div class="card">
-						<img src="event1.jpg" class="card-img-top" alt="..." height="300" />
+						<img src="Front End/Gambar/folder category event/event3.jpg" class="card-img-top" alt="..." height="300" />
 						<div class="card-body">
-							<p class="card-text">[EVENT] Orientasi Program 
+							<p class="card-text judulevent">[EVENT] Orientasi Program 
 								FGA DTS 2022</p>
+								<p style="font-size: small; margin-bottom: 20px;">19 JULI 2021 / BY DIAN RAMADHANI / EVENT</p>
 								<br>
 							<div class="text-center">
 								<button class="btn-primary"
@@ -170,13 +159,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-md-4 col-sm-6 mb-5">
 					<div class="card">
-						<img src="event2.jpg" class="card-img-top" alt="..." height="300" />
+						<img src="Front End/Gambar/folder category event/event4.jpg" class="card-img-top" alt="..." height="300" />
 						<div class="card-body">
-							<p class="card-text">[EVENT] Ani Mardhatillah,
-								Mahasiswa Informatika Juara
-								1 Lomba MTQ Kecamatan</p>
+							<p class="card-text judulevent">[EVENT] KULIAH UMUM : Big Data Analytics and Visualization </p>
+							<p style="font-size: small; margin-bottom: 20px;">19 MARCH 2021 / BY DIAN RAMADHANI / EVENT</p>
 							<div class="text-center">
 								<button class="btn-primary"
 									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;">Read
@@ -185,28 +173,14 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-md-4 col-sm-6 ">
 					<div class="card">
-						<img src="Event3.jpg" class="card-img-top" alt="..." height="300" />
+						<img src="Front End/Gambar/folder category event/event5.jpg" class="card-img-top" alt="..." height="300" />
 						<div class="card-body">
-							<p class="card-text">[EVENT] Prof Azriyenni 
+							<p class="card-text judulevent">[EVENT] Prof Azriyenni 
 								Guru Besar Teknik Elektro 
 								Pertama di Riau</p>
-							<div class="text-center">
-								<button class="btn-primary"
-									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond; padding: 2px 20px; border: none;">Read
-									More</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 mb-5">
-					<div class="card">
-						<img src="event4.jpg" class="card-img-top" alt="..." height="300" />
-						<div class="card-body">
-							<p class="card-text">[EVENT] KULIAH UMUM
-								Data Analystics For Health 
-								Sector</p>
+								<p style="font-size: small; margin-bottom: 20px;">15 JUNE 2022 / BY SALHAZAN NASUTION / EVENT</p>
 								<br>
 							<div class="text-center">
 								<button class="btn-primary"
@@ -216,13 +190,32 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-md-4 col-sm-6">
 					<div class="card">
-						<img src="event5.jpg" class="card-img-top" alt="..." height="300" />
+						<img src="Front End/Gambar/folder category event/event6.jpg" class="card-img-top" alt="..." height="300" />
 						<div class="card-body">
-							<p class="card-text">[EVENT] KULIAH UMUM : 
+							<p class="card-text judulevent">[EVENT] KULIAH UMUM
+								Data Analystics For Health 
+								Sector</p>	
+								<p style="font-size: small; margin-bottom: 20px;">17 JUNE 2022 / BY DIAN RAMADHANI / EVENT</p>
+								<br>
+							<div class="text-center">
+								<button class="btn-primary"
+									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond; padding: 2px 20px; border: none;">Read
+									More</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="card">
+						<img src="Front End/Gambar/folder category event/event7.jpg" class="card-img-top" alt="..." height="300" />
+						<div class="card-body">
+							<p class="card-text judulevent"> <b>[EVENT] KULIAH UMUM : 
 								Computer Vision dan Artificial
-								Intelligence di Era Revolusi 4.0</p>
+								Intelligence di Era Revolusi 4.0</b></p>
+								<p style="font-size: small; margin-bottom: 20px;">26 OCTOBER 2021 / BY SALHAZAN NASUTION / EVENT</p>
+								<br>
 							<div class="text-center">
 								<button class="btn-primary"
 									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond; padding: 2px 20px; border: none;">Read
@@ -235,14 +228,17 @@
 		</div>
 	</section>
 
+
+	<!-- berita opsi -->
+
 	<section id="Berita">
-		<div class="container-fluid pb-5 pt-5">
+		<div class="container-fluid ">
 			<div class="row text-center mb-5">
 				<div class="col">
-					<div class="row"
+					<div class="row"	
 						style="display: flex; align-items: center; justify-content: center; padding-top:30px ;">
-						<div class="col-lg-3 px-0 "
-							style="display: flex; align-items: center; justify-content: center; width: 100%; padding-bottom: 20p; ">
+						<div class="col-lg-3 px-0"
+							style="display: flex; align-items: center; justify-content: center; width: 100%; ">
 							<span class="garisjudul"></span>
 							<h2 class="teksgarisjudul"
 								style="color: #1B3659 ; font-weight: 600; text-align: center; margin-top: 8px;">Berita
@@ -252,14 +248,14 @@
 					</div>
 				</div>
 			</div>
-			<div class="row justify-content-center p-5">
-				<div class="col-md-4 mb-5">
-					<div class="card ">
-						<img src="Asset 5.png" class="card-img-top" alt="..." height="300" />
-						<div class="card-body" heigh>
-							<p class="card-text">[EVENT] WEBINAR : How to
-								Create a Project/Research 
-								Poster </p>
+			<div class="row justify-content-center p-5 pt-0" style="font-family: Poppins;">
+				<div class="col-md-4 col-sm-6 mb-5">
+					<div class="card">
+						<img src="Front End/Gambar/folder category berita/berita2.jpg" class="card-img-top" alt="..." height="300" />
+						<div class="card-body">
+							<p class="card-text judulevent">Prof Azriyenni Guru Besar Teknik Elektro Pertama di Riau </p>
+                            <p style="font-size: small;  margin-bottom: 20px;">15 JUNI 2022 / BY SALHAZAN NASUTION / BERITA</p>
+							<br>
 							<div class="text-center">
 								<button class="btn-primary"
 									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond; padding: 2px 20px; border: none;">Read
@@ -268,13 +264,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-md-4 col-sm-6 mb-5">
 					<div class="card">
-						<img src="event1.jpg" class="card-img-top" alt="..." height="300" />
+						<img src="Front End/Gambar/folder category berita/berita3.jpg" class="card-img-top" alt="..." height="300" />
 						<div class="card-body">
-							<p class="card-text">[EVENT] Orientasi Program 
-								FGA DTS 2022</p>
-								<br>
+							<p class="card-text judulevent">Dr. Irsan Taufik Ali, ST., MT dosen Prodi Teknik Informatika meraih gelar Doktor di bidang Deep Learning.</p>
+                            <p style="font-size: small;">21 JULI 2021 / BY SALHAZAN NASUTION / BERITA</p>
 							<div class="text-center">
 								<button class="btn-primary"
 									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none; ">Read
@@ -283,13 +278,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-md-4 col-sm-6 mb-5">
 					<div class="card">
-						<img src="event2.jpg" class="card-img-top" alt="..." height="300" />
+						<img src="Front End/Gambar/folder category berita/berita4.jpg" class="card-img-top " alt="..." height="300" />
 						<div class="card-body">
-							<p class="card-text">[EVENT] Ani Mardhatillah,
-								Mahasiswa Informatika Juara
-								1 Lomba MTQ Kecamatan</p>
+							<p class="card-text judulevent">Dr. Azriyenni, ST., M.Eng Wakil Dekan bidang Kemahasiswaan, Kerjasama dan Alumni Fakultas Teknik</p>
+                                <p style="font-size: small; margin-bottom: 20px;">12 JULI 2021 / BY SALHAZAN NASUTION / BERITA</p>
 							<div class="text-center">
 								<button class="btn-primary"
 									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;">Read
@@ -298,94 +292,47 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
-					<div class="card">
-						<img src="Event3.jpg" class="card-img-top" alt="..." height="300" />
-						<div class="card-body">
-							<p class="card-text">[EVENT] Prof Azriyenni 
-								Guru Besar Teknik Elektro 
-								Pertama di Riau</p>
-							<div class="text-center">
-								<button class="btn-primary"
-									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond; padding: 2px 20px; border: none;">Read
-									More</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 mb-5">
-					<div class="card">
-						<img src="event4.jpg" class="card-img-top" alt="..." height="300" />
-						<div class="card-body">
-							<p class="card-text">[EVENT] KULIAH UMUM
-								Data Analystics For Health 
-								Sector</p>
-								<br>
-							<div class="text-center">
-								<button class="btn-primary"
-									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond; padding: 2px 20px; border: none;">Read
-									More</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 mb-5">
-					<div class="card">
-						<img src="event5.jpg" class="card-img-top" alt="..." height="300" />
-						<div class="card-body">
-							<p class="card-text">[EVENT] KULIAH UMUM : 
-								Computer Vision dan Artificial
-								Intelligence di Era Revolusi 4.0</p>
-							<div class="text-center">
-								<button class="btn-primary"
-									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond; padding: 2px 20px; border: none;">Read
-									More</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</section>
 
 	
 
 	<!--Footer-->
-	<footer class="text_white img-fluid">
-		<div class="container-fluid pb-5 ">
+	<footer class="text_white img-fluid" style="font-family: Poppins;">
+		<div class="container-fluid pb-5">
 			<div class="row footerpdd">
-				<div class="col-md-2 mb-4 logounrifoot">
-					<img src="asset.png" alt="unri" class="mt-5 footbg" />
+				<div class="col-md-2 mb-4 p-4 logounrifoot" >
+					<img src="Front End/Gambar/folder untuk gambar template/logo.png" alt="unri" class="mt-5 footbg" width="180px">
 				</div>
 
 				<div class="col-md-3" style="font-size: larger">
-					<h4 style="color: antiquewhite;" class="font-weight-bold mb-3 judulfooter">Kontak
+					<h4 class="ftbagianjudulatas style="color: antiquewhite;" class="font-weight-bold mb-3 judulfooter"> <a href="">Kontak</a> 
 					</h4>
-					<p style="color: antiquewhite">Gedung C lantai 2</p>
-					<p style="color: antiquewhite">Fakultas Teknik Universitas Riau</p>
-					<p style="color: antiquewhite">Kampus BinaWidya</p>
-					<p style="color: antiquewhite">Jl Hr Soebrantas KM 12.5</p>
-					<p style="color: antiquewhite">Simpang baru Binawdya,Pekanbaru</p>
-					<p style="color: antiquewhite">28293</p>
-					<p style="color: antiquewhite">E-mail:informatika@eng.unri.ac.id</p>
+					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">Gedung C lantai 2</a></p>
+					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">Fakultas Teknik Universitas Riau</a></p>
+					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">Kampus BinaWidya</a></p>
+					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">Jl Hr Soebrantas KM 12.5</a></p>
+					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">Simpang baru Binawdya,Pekanbaru</a></p>
+					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">28293</a></p>
+					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">E-mail:informatika@eng.unri.ac.id</a></p>
 				</div>
 				<div class="col-md-3" style="font-size: larger">
-					<h4 style="color: antiquewhite" class="font-weight-bold mb-3 judulfooter">SI Teknik Informatika</h4>
-					<p style="color: antiquewhite" class="bullet">Event 2</p>
-					<br />
-					<p style="color: antiquewhite" class="bullet">Prestasi Mahasiswa</p>
-					<br />
-					<p style="color: antiquewhite" class="bullet">Berita</p>
-					<br />
-					<p style="color: antiquewhite" class="bullet">Tutorial</p>
+					<h4 class="ftbagianjudulatas" style="color: antiquewhite" class="font-weight-bold mb-3 judulfooter"><a href="">SI Teknik Informatika</a></h4>
+					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="berita.html">Berita</a></p>
+					<br>
+					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="event.html">Event</a></p>
+					<br>
+					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="poster.html">Poster Mahasiswa</a></p>
+					<br>
+					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="prestasimahasiswa.html">Prestasi Mahasiswa</a></p>
 				</div>
 				<div class="col-md-3" style="font-size: larger">
-					<h4 style="color: antiquewhite" class="font-weight-bold mb-3 judulfooter">Link Terkait</h4>
-					<p style="color: antiquewhite" class="bullet">Beasiswa</p>
-					<br />
-					<p style="color: antiquewhite" class="bullet">Konferensi Internasional</p>
-					<br />
-					<p style="color: antiquewhite" class="bullet">JTracer Study</p>
+					<h4 class="ftbagianjudulatas" style="color: antiquewhite" class="font-weight-bold mb-3 judulfooter"><a href="">Link Terkait</a></h4>
+					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="">Beasiswa</a></p>
+					<br>
+					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="">Konferensi Internasional</a></p>
+					<br>
+					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="">JTracer Study</a></p>
 				</div>
 			</div>
 		</div>

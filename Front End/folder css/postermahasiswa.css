@@ -20,8 +20,12 @@ footer{
     background-size:cover ;
 }
 
+.ftbagian a{
+    text-decoration: none;
+    color: white;
+}
 
-.judulfooter::after{
+.ftbagianjudulatas::after{
 content: "";
 display: block;
 width: 100%;
@@ -29,11 +33,31 @@ height: 3px;
 background-color: white;
 }
 
-.judulberita{
-    padding-top: 75px;
-    padding-left: 40px;
+.ftbagianjudulatas a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.ftbagian{
+    display: flex;
     align-items: center;
 }
+.ftbagian::before{
+    content: "";
+    margin-right:5px;
+    height: 10px;
+    background-color: white;
+    width: 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+.ftbagiankontak a{
+    text-decoration: none;
+    color: white;
+}
+
 
 .bullet{
     display: flex;
@@ -45,6 +69,32 @@ background-color: white;
     height: 10px;
     background-color: white;
     width: 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+.teksgarisjudul{
+    display: flex;
+    align-items: center;
+}
+
+
+.teksgarisjudul::before{
+    content: "";
+    margin-right:5px;
+    height: 15px;
+    background-color: #1B3659;
+    width: 15px;
+    display: block;
+    border-radius: 50%;
+}
+
+.teksgarisjudul::after{
+    content: "";
+    margin-left:5px;
+    height: 15px;
+    background-color: #1B3659;
+    width: 15px;
     display: block;
     border-radius: 50%;
 }
@@ -125,6 +175,10 @@ nav a{
    
 }
 
+.eventutama{
+    width: 1000px;
+}
+
 .toggle{
     font-size: 30px;
     display: none;
@@ -140,32 +194,6 @@ nav a{
     background-color:#1B3659 ;
     height: 3px;
     display: block;
-}
-
-.teksgarisjudul{
-    display: flex;
-    align-items: center;
-}
-
-
-.teksgarisjudul::before{
-    content: "";
-    margin-right:5px;
-    height: 15px;
-    background-color: #1B3659;
-    width: 15px;
-    display: block;
-    border-radius: 50%;
-}
-
-.teksgarisjudul::after{
-    content: "";
-    margin-left:5px;
-    height: 15px;
-    background-color: #1B3659;
-    width: 15px;
-    display: block;
-    border-radius: 50%;
 }
 
 .logo-head.mobile{
@@ -222,13 +250,14 @@ form.search-desktop{
     height: 300px;
 }
 
-.isiberita{
-    margin-top: 50px;
+
+/* untuk judul event atau berita atau prestasi mahasiswa */
+
+.judulevent{
+    font-weight: bold;
 }
 
-.isiberita .p{
-    text-align: center;
-}
+
 
 /* responsive */
 
@@ -340,6 +369,36 @@ form.search-desktop{
 
 }
     
+/* event utama */
+@media  screen and (max-width : 1020px){
+    .eventutama{
+        width: 750px;
+    }
+
+}
+
+@media  screen and (max-width : 760px){
+    .eventutama{
+        width: 600px;
+    }
+
+}
+
+@media  screen and (max-width : 623px){
+    .eventutama{
+        width: 450px;
+    }
+
+}
+
+@media  screen and (max-width : 463px){
+    .eventutama{
+        width: 350px;
+    }
+
+}
+
+
 
 /* navbar media */
 @media  screen and (min-width : 993px) {
@@ -362,12 +421,4 @@ form.search-desktop{
     }
 
     
-}
-
-/* responsive judul berita */
-@media  screen and (max-width : 404px){
-    .judulberita{
-        padding-top: 30px;
-    }
-}
-
+}   

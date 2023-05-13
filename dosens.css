@@ -20,13 +20,42 @@ footer{
     background-size:cover ;
 }
 
+.ftbagian a{
+    text-decoration: none;
+    color: white;
+}
 
-.judulfooter::after{
+.ftbagianjudulatas::after{
 content: "";
 display: block;
 width: 100%;
 height: 3px;
 background-color: white;
+}
+
+.ftbagianjudulatas a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.ftbagian{
+    display: flex;
+    align-items: center;
+}
+.ftbagian::before{
+    content: "";
+    margin-right:5px;
+    height: 10px;
+    background-color: white;
+    width: 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+.ftbagiankontak a{
+    text-decoration: none;
+    color: white;
 }
 
 

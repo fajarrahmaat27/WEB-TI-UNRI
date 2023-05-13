@@ -20,13 +20,42 @@ footer{
     background-size:cover ;
 }
 
+.ftbagian a{
+    text-decoration: none;
+    color: white;
+}
 
-.judulfooter::after{
+.ftbagianjudulatas::after{
 content: "";
 display: block;
 width: 100%;
 height: 3px;
 background-color: white;
+}
+
+.ftbagianjudulatas a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.ftbagian{
+    display: flex;
+    align-items: center;
+}
+.ftbagian::before{
+    content: "";
+    margin-right:5px;
+    height: 10px;
+    background-color: white;
+    width: 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+.ftbagiankontak a{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -146,6 +175,10 @@ nav a{
    
 }
 
+.eventutama{
+    width: 1000px;
+}
+
 .toggle{
     font-size: 30px;
     display: none;
@@ -215,6 +248,20 @@ form.search-desktop{
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+}
+
+
+/* untuk judul event atau berita atau prestasi mahasiswa */
+
+.judulevent{
+    font-weight: bold;
+}
+
+/* card */
+.card{
+    border:none;
+    box-shadow: 5px 5px 10px 3px black;
+    border-radius: 0px;
 }
 
 
@@ -329,6 +376,36 @@ form.search-desktop{
 
 }
     
+/* event utama */
+@media  screen and (max-width : 1020px){
+    .eventutama{
+        width: 750px;
+    }
+
+}
+
+@media  screen and (max-width : 760px){
+    .eventutama{
+        width: 600px;
+    }
+
+}
+
+@media  screen and (max-width : 623px){
+    .eventutama{
+        width: 450px;
+    }
+
+}
+
+@media  screen and (max-width : 463px){
+    .eventutama{
+        width: 350px;
+    }
+
+}
+
+
 
 /* navbar media */
 @media  screen and (min-width : 993px) {

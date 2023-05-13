@@ -17,7 +17,7 @@ body{
 footer{
     background: url(unri-ffooter.png);
     background-repeat: no-repeat;
-    background-size:cover ;
+    background-size:cover;
 }
 
 .ftbagian a{
@@ -58,6 +58,11 @@ background-color: white;
     color: white;
 }
 
+.judulberita{
+    padding-top: 75px;
+    padding-left: 40px;
+    align-items: center;
+}
 
 .bullet{
     display: flex;
@@ -72,8 +77,6 @@ background-color: white;
     display: block;
     border-radius: 50%;
 }
-
-
 
 
 
@@ -248,33 +251,13 @@ form.search-desktop{
     height: 300px;
 }
 
-/* caraousel image */
-img{
-    max-width: 100%;
+.isiberita{
+    margin-top: 50px;
 }
 
-.splide__slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .img_box{
-    width: 100%;
-    height: 300px;
-  }
-
-.splide__pagination{
- bottom: -2rem;
+.isiberita .p{
+    text-align: center;
 }
-
-.splide__pagination__page.is-active{
-    opacity: 1;
-    background-color: #1B3659;
-}
-
-
-
 
 /* responsive */
 
@@ -408,5 +391,12 @@ img{
     }
 
     
+}
+
+/* responsive judul berita */
+@media  screen and (max-width : 404px){
+    .judulberita{
+        padding-top: 30px;
+    }
 }
 
