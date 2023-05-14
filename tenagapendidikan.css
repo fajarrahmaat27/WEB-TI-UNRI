@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins:wght@200;500&display=swap');
 *{
@@ -14,24 +15,11 @@ body{
 .judulfooter::after{
     content: "";
     display: block;
-    width: 80%;
+    width: 100%;
     height: 3px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     }
-
-    .judulfooterr::after{
-        content: "";
-        display: block;
-        width: 30%;
-        height: 3px;
-        background-color: #1b3659;
-        position: absolute;
-        left: 36%
-        }
-
-.tujuan{
-    width: 1400px;
-}        
+    
 
 .btn {
     text-decoration: none;
@@ -438,4 +426,3 @@ img{
 
     
 }
-
