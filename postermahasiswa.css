@@ -12,34 +12,6 @@ body{
 }
 
 
-/* event utama */
-@media  screen and (max-width : 1020px){
-    .eventutama{
-        width: 750px;
-    }
-
-}
-
-@media  screen and (max-width : 760px){
-    .eventutama{
-        width: 600px;
-    }
-
-}
-
-@media  screen and (max-width : 623px){
-    .eventutama{
-        width: 450px;
-    }
-
-}
-
-@media  screen and (max-width : 463px){
-    .eventutama{
-        width: 350px;
-    }
-
-}
 /* unutk bg footer */
 
 footer{
@@ -285,6 +257,8 @@ form.search-desktop{
     font-weight: bold;
 }
 
+
+/* card */
 /* card */
 .card{
     border:none;
