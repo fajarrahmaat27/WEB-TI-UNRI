@@ -11,72 +11,82 @@
 </head>
 
 <body>
+
+	
+	<!--Navbar Atas-->
 	<div class="top-bar">
 		<span></span>
-		<ul>
+		<ul style="margin-top: 7px;">
 			<li><a href="#"></a>Universitas</li>
 			<li><a href="#"></a>Fakultas</li>
 			<li><a href="#"></a>Jurusan</li>
-			<li><a href="#"></a>Sertifikasi</li>
+			<li><a href="#"></a>Unduh Brosur</li>
+			<li><a href="#"></a>Pendaftaran</li>
 		</ul>
 	</div>
 
-	<nav style="display: flex; justify-content: space-between; position: sticky; top: 0; z-index: 1000;">
+	<nav
+		style="display: flex; justify-content: space-between; position: sticky; top: 0; z-index: 1000; font-family: Poppins;">
 		<div class="toggle">
 			<div class="close-btn"><ion-icon name="close-circle-outline"></ion-icon></div>
 			<div class="menu-btn"><ion-icon name="menu-outline"></ion-icon></div>
-		</div> 
-		
+		</div>
+
 		<div class="logo-head mobile">
 			<a href=""><img src="asset/Asset 20.png" alt="..."></a>
 		</div>
 		<div class="logo-head desktop">
 			<a href=""><img src="asset/1x/Asset 45.png" alt="..."></a>
 		</div>
-		<form style="border : 2px solid black; border-radius: 30px; padding: 5px 20px; margin-left: 220px;" class="search-desktop" action=""><input type="text" placeholder="Search..." style="border: none; text-indent: 10px;outline: none;"> <div><ion-icon name="search-outline" style="font-size: larger;"></ion-icon></div></form>
+		<form style="border : 2px solid black; border-radius: 30px; padding: 5px 20px; margin-left: 220px;"
+			class="search-desktop" action=""><input type="text" placeholder="Search..."
+				style="border: none; text-indent: 10px;outline: none;">
+			<div><ion-icon name="search-outline" style="font-size: larger;"></ion-icon></div>
+		</form>
+
+           <!--Navbar-->
 		<ul class="menu">
 			<li><a href="index.html">Beranda</a></li>
-
 			<!-- <li><a href="#">Profile</a> -->
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown" href="#"  data-bs="dropdown" aria-expanded="false">
-					  Profile
-					</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
-						<li><a class="dropdown-item" href="visidanmisi.html">Visi & Misi</a></li>
-						<li><a class="dropdown-item" href="tujuan.html">Tujuan</a></li>
-						<li><a class="dropdown-item" href="sasaran.html">Sasaran</a></li>
-						<li><a class="dropdown-item" href="strategi.html">Strategi</a></li>
-						<li><a class="dropdown-item" href="akreditasi.html">Akreditasi</a></li>
-						<li><a class="dropdown-item" href="dosen.html">Dosen</a></li>
-						<li><a class="dropdown-item" href="tenagapendidikan.html">Tenaga Kependidikan</a></li>
-					  <li class="nav-item dropstart">
-						<a class="nav-link dropdown" href="#" role="button" data-bs="dropdown" aria-expanded="false" style="padding-left: 18px;">
-							Laboratorium
+			<li class="nav-item dropdown">
+				        <a class="nav-link dropdown" href="#" data-bs="dropdown" aria-expanded="false">
+				  	    Profile
+				    </a>
+				<ul class="dropdown-menu">
+				    <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+				    <li><a class="dropdown-item" href="visidanmisi.html">Visi & Misi</a></li>
+				    <li><a class="dropdown-item" href="tujuan.html">Tujuan</a></li>
+				    <li><a class="dropdown-item" href="sasaran.html">Sasaran</a></li>
+					<li><a class="dropdown-item" href="strategi.html">Strategi</a></li>
+					<li><a class="dropdown-item" href="akreditasi.html">Akreditasi</a></li>
+					<li><a class="dropdown-item" href="dosen.html">Dosen</a></li>
+					<li><a class="dropdown-item" href="tenagapendidikan.html">Tenaga Kependidikan</a></li>
+					<li class="nav-item dropstart">
+						<a class="nav-link dropdown" href="#" role="button" data-bs="dropdown" aria-expanded="false"
+						style="padding-left: 18px;">
+						Laboratorium
 						</a>
-						<ul class="dropdown-menu">
-						  <li><a class="dropdown-item" href="Labkomputerjaringan.html">Lab. Komputer & Jaringan</a></li>
-						  <li><a class="dropdown-item" href="LabRekayasaPerangkat Lunak.html">Lab. Rekayasa Perangkat Lunak</a></li>
-						</ul>
-					  </li>
-					</ul>
-				    <li class="nav-item dropdown">
-						<a class="nav-link dropdown" href="#"  data-bs="dropdown" aria-expanded="false">
-						  Galeri
-						</a>
-						<ul class="dropdown-menu">
-						  <li><a class="dropdown-item" href="foto.html">Foto</a></li>
-						  <li><a class="dropdown-item" href="vidio.html">Video</a></li>
-						  <li><a class="dropdown-item" href="virtualtour.html">Virtual Tour</a></li>
-						  <li><a class="dropdown-item" href="kontak.html">Kontak</a></li>
-						  </li>
-						</ul>
-					  </li>
+			    <ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="Labkomputerjaringan.html">Lab. Komputer & Jaringan</a>
+					</li>
+					<li><a class="dropdown-item" href="LabRekayasaPerangkat Lunak.html">Lab. Rekayasa Perangkat	Lunak</a></li>
+				</ul>
+					</li>
+				</ul>
 			</li>
-			<li><a href="#">Sertfikasi</a></li>
-			<li><a href="#">Kategori</a></li>
-		</ul>
+			<li><a href="#">Akademik</a></li>
+			<li class="nav-item dropdown">
+				        <a class="nav-link dropdown" href="#" data-bs="dropdown" aria-expanded="false">  Galeri</a>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="foto.html">Foto</a></li>
+					<li><a class="dropdown-item" href="vidio.html">Video</a></li>
+					<li><a class="dropdown-item" href="virtualtour.html">Virtual Tour</a></li>
+			</li>
+		        </ul>
+		     <li><a href="#">Sertfikasi</a></li>
+			 <li><a href="kontak.html">Kontak</a></li> 
+	    </ul>
+
 		<div class="search-mobile">
 			<a href=""><ion-icon name="search-outline" style="font-size: larger;"></ion-icon></a>
 		</div>

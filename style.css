@@ -31,6 +31,12 @@ footer{
     background-size:cover ;
 }
 
+.bgkananpp{
+    background: url(profill.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
 .ftbagian a{
     text-decoration: none;
     color: white;
