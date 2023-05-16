@@ -13,77 +13,99 @@
 <body>
 	<div class="top-bar">
 		<span></span>
-		<ul>
+		<ul style="margin-top: 7px;">
 			<li><a href="#"></a>Universitas</li>
 			<li><a href="#"></a>Fakultas</li>
 			<li><a href="#"></a>Jurusan</li>
-			<li><a href="#"></a>Akademik</li>
-			<li><a href="#"></a>Sertifikasi</li>
+			<li><a href="#"></a>Unduh Brosur</li>
+			<li><a href="#"></a>Pendaftaran</li>
 		</ul>
 	</div>
 
-	<nav style="display: flex; justify-content: space-between; position: sticky; top: 0; z-index: 1000;">
+	<nav
+		style="display: flex; justify-content: space-between; position: sticky; top: 0; z-index: 1000; font-family: Poppins;">
 		<div class="toggle">
 			<div class="close-btn"><ion-icon name="close-circle-outline"></ion-icon></div>
 			<div class="menu-btn"><ion-icon name="menu-outline"></ion-icon></div>
-		</div> 
-		
+		</div>
+
 		<div class="logo-head mobile">
 			<a href=""><img src="asset/Asset 20.png" alt="..."></a>
 		</div>
 		<div class="logo-head desktop">
 			<a href=""><img src="asset/1x/Asset 45.png" alt="..."></a>
 		</div>
-		<form style="border : 2px solid black; border-radius: 30px; padding: 5px 20px; margin-left: 220px;" class="search-desktop" action=""><input type="text" placeholder="Search..." style="border: none; text-indent: 10px;outline: none;"> <div><ion-icon name="search-outline" style="font-size: larger;"></ion-icon></div></form>
+		<form style="border : 2px solid black; border-radius: 30px; padding: 5px 20px; margin-left: 220px;"
+			class="search-desktop" action=""><input type="text" placeholder="Search..."
+				style="border: none; text-indent: 10px;outline: none;">
+			<div><ion-icon name="search-outline" style="font-size: larger;"></ion-icon></div>
+		</form>
 		<ul class="menu">
 			<li><a href="index.html">Beranda</a></li>
 			<!-- <li><a href="#">Profile</a> -->
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown" href="#"  data-bs="dropdown" aria-expanded="false">
-					  Profile
-					</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
-						<li><a class="dropdown-item" href="visidanmisi.html">Visi & Misi</a></li>
-						<li><a class="dropdown-item" href="tujuan.html">Tujuan</a></li>
-						<li><a class="dropdown-item" href="sasaran.html">Sasaran</a></li>
-						<li><a class="dropdown-item" href="strategi.html">Strategi</a></li>
-						<li><a class="dropdown-item" href="akreditasi.html">Akreditasi</a></li>
-						<li><a class="dropdown-item" href="dosen.html">Dosen</a></li>
-						<li><a class="dropdown-item" href="tenagapendidikan.html">Tenaga Kependidikan</a></li>
-					  <li class="nav-item dropstart">
-						<a class="nav-link dropdown" href="#" role="button" data-bs="dropdown" aria-expanded="false" style="padding-left: 18px;">
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown" href="#" data-bs="dropdown" aria-expanded="false">
+					Profile
+				</a>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+					<li><a class="dropdown-item" href="visidanmisi.html">Visi & Misi</a></li>
+					<li><a class="dropdown-item" href="tujuan.html">Tujuan</a></li>
+					<li><a class="dropdown-item" href="sasaran.html">Sasaran</a></li>
+					<li><a class="dropdown-item" href="strategi.html">Strategi</a></li>
+					<li><a class="dropdown-item" href="akreditasi.html">Akreditasi</a></li>
+					<li><a class="dropdown-item" href="dosen.html">Dosen</a></li>
+					<li><a class="dropdown-item" href="tenagapendidikan.html">Tenaga Kependidikan</a></li>
+					<li class="nav-item dropstart">
+						<a class="nav-link dropdown" href="#" role="button" data-bs="dropdown" aria-expanded="false"
+							style="padding-left: 18px;">
 							Laboratorium
 						</a>
 						<ul class="dropdown-menu">
-						  <li><a class="dropdown-item" href="Labkomputerjaringan.html">Lab. Komputer & Jaringan</a></li>
-						  <li><a class="dropdown-item" href="LabRekayasaPerangkat Lunak.html">Lab. Rekayasa Perangkat Lunak</a></li>
+							<li><a class="dropdown-item" href="Labkomputerjaringan.html">Lab. Komputer & Jaringan</a>
+							</li>
+							<li><a class="dropdown-item" href="LabRekayasaPerangkat Lunak.html">Lab. Rekayasa Perangkat
+									Lunak</a></li>
 						</ul>
-					  </li>
-					</ul>
-				  </li>
-				  <li class="nav-item dropdown">
-					<a class="nav-link dropdown" href="#"  data-bs="dropdown" aria-expanded="false">
-					  Galeri
-					</a>
-					<ul class="dropdown-menu">
-					  <li><a class="dropdown-item" href="foto.html">Foto</a></li>
-					  <li><a class="dropdown-item" href="vidio.html">Video</a></li>
-					  <li><a class="dropdown-item" href="virtualtour.html">Virtual Tour</a></li>
-					  <li><a class="dropdown-item" href="kontak.html">Kontak</a></li>
-					  </li>
-					</ul>
-				  </li>
+					</li>
+				</ul>
 			</li>
-			<li><a href="#">Sertfikasi</a></li>
-			<li><a href="#">Kategori</a></li>
+			<li><a href="#">Akademik</a></li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown" href="#" data-bs="dropdown" aria-expanded="false">
+					Galeri
+				</a>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="foto.html">Foto</a></li>
+					<li><a class="dropdown-item" href="vidio.html">Video</a></li>
+					<li><a class="dropdown-item" href="virtualtour.html">Virtual Tour</a></li>
+					<!-- <li><a class="dropdown-item" href="kontak.html">Kontak</a></li> -->
+			</li>
+		</ul>
+		<li><a href="#">Sertfikasi</a></li>
+		</li>
+		<!-- <li class="nav-item dropdown">
+			<a class="nav-link dropdown" href="#" data-bs="dropdown" aria-expanded="false">
+				Kategori
+			</a>
+			<ul class="dropdown-menu">
+				<li><a class="dropdown-item" href="berita.html">Berita</a></li>
+				<li><a class="dropdown-item" href="event.html">Event</a></li>
+				<li><a class="dropdown-item" href="poster.html">Poster Mahsiswa</a></li>
+				<li><a class="dropdown-item" href="prestasimahasiswa.html">Perstasi Mahasiswa</a></li>
+		</li> -->
+		</li>
+		</ul>
+		</li>
+		
+		<!-- <li><a href="kontak.html">Kontak</a></li> -->
 		</ul>
 		<div class="search-mobile">
 			<a href=""><ion-icon name="search-outline" style="font-size: larger;"></ion-icon></a>
 		</div>
 	</nav>
-	
-<!-- sidebarmobilea -->
+
+	<!-- sidebarmobilea -->
 	<nav class="sidebarmobile">
 		<ul>
 			<li><a href="index.html">Beranda</a></li>
@@ -102,49 +124,58 @@
 	<!-- slider -->
 	<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-inner">
-		  <div class="carousel-item active">
-			<img src="banner-1.jpg" class="d-block w-100" alt="...">
-		  </div>
-		  <div class="carousel-item">
-			<img src="banner-2.jpg" class="d-block w-100" alt="...">
-		  </div>
-		  <div class="carousel-item">
-			<img src="banner-3.jpg" class="d-block w-100" alt="...">
-		  </div>
-		  <div class="carousel-item">
-			<img src="banner-4.jpg" class="d-block w-100" alt="...">
-		  </div>
+			<div class="carousel-item active">
+				<img src="banner-1.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item">
+				<img src="banner-2.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item">
+				<img src="banner-3.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item">
+				<img src="banner-4.jpg" class="d-block w-100" alt="...">
+			</div>
 		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		  <span class="visually-hidden">Previous</span>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+			data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
 		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		  <span class="visually-hidden">Next</span>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+			data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
 		</button>
-	  </div>
+	</div>
 
-	  <!-- profile -->
-	  <section id="Profile" style="margin-top: 0; ">
-		<div class="container pt-5 pb-5" >
+	<!-- profile -->
+	<section id="Profile" style="margin-top: 0; ">
+		<div class="container pt-5 pb-5">
 			<div class="row bgprofilemb" style="background-color: #F6F0E4;" p>
 				<div class="col-12 col-xl-6 col-sm-12 p-0 m-0">
 					<img class="img-fluid profiledesktop align-self-start" src="Asset 70.png" alt="">
 					<img class="profilemobile" src="Asset 70.png" alt="">
 				</div>
 				<div class="col-12 col-sm-12 col-xl-6 col-xs text-start bgkananpp">
-					<h1 style="color: black; font-family: Poppins; padding-top: 100px; padding-left: 100px ;" class="font-weight-bold mb-3">Penerimaan Mahasiswa Baru Universitas Riau</h1>
-					<p style="color: black; text-align: left; padding-left:100px; font-family: Poppins; font-size: 21px;">Penerimaan Tahun Ajaran 2023/2024</p>
-					<p style="color: black; text-align: left; padding-left:100px; font-family: Poppins; font-size: 21px;">Prodi Teknik Informatika Universitas Riau menerima mahasiswa baru tahun ajaran 2023/2024 pada jenjang sarjana.</p>
+					<h1 style="color: black; font-family: Poppins; padding-top: 100px; padding-left: 100px ;"
+						class="font-weight-bold mb-3">Penerimaan Mahasiswa Baru Universitas Riau</h1>
+					<p
+						style="color: black; text-align: left; padding-left:100px; font-family: Poppins; font-size: 21px;">
+						Penerimaan Tahun Ajaran 2023/2024</p>
+					<p
+						style="color: black; text-align: left; padding-left:100px; font-family: Poppins; font-size: 21px;">
+						Prodi Teknik Informatika Universitas Riau menerima mahasiswa baru tahun ajaran 2023/2024 pada
+						jenjang sarjana.</p>
 					<button class="btn-primary"
-						style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: Poppins; padding: 5px 20px; margin-left: 100px; border: none;">Jadwal Penerimaan</button>
+						style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: Poppins; padding: 5px 20px; margin-left: 100px; border: none;">Jadwal
+						Penerimaan</button>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	  
+
 	<!--akademik-desktop-->
 	<section id="akademik-desktop" style="background-color: white;">
 		<div>
@@ -152,45 +183,51 @@
 				<h1 class="judulakademik" style="color: white; text-align: center; padding-bottom: 50px;">Akademik</h1>
 				<div class="col-md-4 text-center">
 					<h4 style="color: antiquewhite" class="font-weight-bold mb-3">Kurikulum</h4>
-					<p style="color: antiquewhite">Kurikulum pada Prodi Teknik Informatika Universitas Riau menggunakan kurikulum berbasis SNPT (SN-DIKTI)</p>
+					<p style="color: antiquewhite">Kurikulum pada Prodi Teknik Informatika Universitas Riau menggunakan
+						kurikulum berbasis SNPT (SN-DIKTI)</p>
 					<br />
 					<br />
 					<br />
 					<br />
 					<br />
 					<button class="btn-primary"
-									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;"><a style="text-decoration: none; color: white;" href="kurikulum.html">Read
-										More</button></a> 
+						style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;"><a
+							style="text-decoration: none; color: white;" href="kurikulum.html">Read
+							More</button></a>
 				</div>
 				<div class="col-md-4 text-center">
 					<h4 style="color: antiquewhite" class="font-weight-bold mb-3">Jadwal Kuliah</h4>
-					<p style="color: antiquewhite">Jadwal kuliah pada Prodi Teknik Informatika Universitas Riau Semester Genap tahun 2023</p>
+					<p style="color: antiquewhite">Jadwal kuliah pada Prodi Teknik Informatika Universitas Riau Semester
+						Genap tahun 2023</p>
 					<br />
 					<br />
 					<br />
 					<br />
 					<br />
 					<button class="btn-primary"
-									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;"><a style="text-decoration: none; color: white;" href="jadwalkuliah.html">Read
-										More</button></a> 
+						style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;"><a
+							style="text-decoration: none; color: white;" href="jadwalkuliah.html">Read
+							More</button></a>
 				</div>
 				<div class="col-md-4 text-center">
 					<h4 style="color: antiquewhite" class="font-weight-bold mb-3">Kalender Akademik</h4>
-					<p style="color: antiquewhite">Kalender akademik pada Prodi Teknik Informatika Universitas Riau Semester Genap tahun 2023</p>
+					<p style="color: antiquewhite">Kalender akademik pada Prodi Teknik Informatika Universitas Riau
+						Semester Genap tahun 2023</p>
 					<br />
 					<br />
 					<br />
 					<br />
 					<br />
 					<button class="btn-primary"
-									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;"><a style="text-decoration: none; color: white;" href="kalenderakademik.html">Read
-										More</button></a> 
+						style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;"><a
+							style="text-decoration: none; color: white;" href="kalenderakademik.html">Read
+							More</button></a>
 				</div>
-	
+
 			</div>
 		</div>
 	</section>
-	
+
 	<!-- akademik-mobile -->
 	<section id="akademik-mobile" style="background-color: white;">
 		<div class="container-fluid pt-5 pb-5 shadow-lg">
@@ -198,7 +235,8 @@
 				<h1 class="judulakademik" style="color: white; text-align: center; padding-bottom: 50px;">Akademik</h1>
 				<div class="col-md-4 text-center">
 					<h4 style="color: antiquewhite" class="font-weight-bold mb-3">Kurikulum</h4>
-					<p style="color: antiquewhite">Kurikulum pada Prodi Teknik Informatika Universitas Riau menggunakan kurikulum berbasis SNPT (SN-DIKTI)</p>
+					<p style="color: antiquewhite">Kurikulum pada Prodi Teknik Informatika Universitas Riau menggunakan
+						kurikulum berbasis SNPT (SN-DIKTI)</p>
 					<br />
 					<br />
 					<br />
@@ -206,12 +244,14 @@
 					<br />
 					<br />
 					<button class="btn-primary"
-									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;"><a style="text-decoration: none; color: white;" href="kurikulum.html">Read
-										More</button></a> 
+						style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;"><a
+							style="text-decoration: none; color: white;" href="kurikulum.html">Read
+							More</button></a>
 				</div>
 				<div class="col-md-4 text-center mt-5">
 					<h4 style="color: antiquewhite" class="font-weight-bold mb-3">Jadwal Kuliah</h4>
-					<p style="color: antiquewhite">Jadwal kuliah pada Prodi Teknik Informatika Universitas Riau Semester Genap tahun 2023</p>
+					<p style="color: antiquewhite">Jadwal kuliah pada Prodi Teknik Informatika Universitas Riau Semester
+						Genap tahun 2023</p>
 					<br />
 					<br />
 					<br />
@@ -219,12 +259,14 @@
 					<br />
 					<br />
 					<button class="btn-primary"
-									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;"><a style="text-decoration: none; color: white;" href="jadwalkuliah.html">Read
-										More</button></a> 
+						style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;"><a
+							style="text-decoration: none; color: white;" href="jadwalkuliah.html">Read
+							More</button></a>
 				</div>
 				<div class="col-md-4 text-center mt-5">
 					<h4 style="color: antiquewhite" class="font-weight-bold mb-3">Kalender Akademik</h4>
-					<p style="color: antiquewhite">Kalender akademik pada Prodi Teknik Informatika Universitas Riau Semester Genap tahun 2023
+					<p style="color: antiquewhite">Kalender akademik pada Prodi Teknik Informatika Universitas Riau
+						Semester Genap tahun 2023
 					</p>
 					<br />
 					<br />
@@ -232,14 +274,15 @@
 					<br />
 					<br />
 					<button class="btn-primary"
-									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;"><a style="text-decoration: none; color: white;" href="kalenderakademik.html">Read
-										More</button></a> 
+						style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;"><a
+							style="text-decoration: none; color: white;" href="kalenderakademik.html">Read
+							More</button></a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	
+
 
 	<!--Konten/Berita-->
 	<section id="Berita">
@@ -265,7 +308,7 @@
 						<img src="Asset 5.png" class="card-img-top" alt="..." height="300" />
 						<div class="card-body" heigh>
 							<p class="card-text">[EVENT] WEBINAR : How to
-								Create a Project/Research 
+								Create a Project/Research
 								Poster </p>
 							<div class="text-center">
 								<button class="btn-primary"
@@ -279,9 +322,9 @@
 					<div class="card">
 						<img src="event1.jpg" class="card-img-top" alt="..." height="300" />
 						<div class="card-body">
-							<p class="card-text">[EVENT] Orientasi Program 
+							<p class="card-text">[EVENT] Orientasi Program
 								FGA DTS 2022</p>
-								<br>
+							<br>
 							<div class="text-center">
 								<button class="btn-primary"
 									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none; ">Read
@@ -299,8 +342,9 @@
 								1 Lomba MTQ Kecamatan</p>
 							<div class="text-center">
 								<button class="btn-primary"
-									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;"><a style="text-decoration: none; color: white;" href="Postinganberita.html">Read
-										More</button></a> 
+									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond;padding: 2px 20px; border: none;"><a
+										style="text-decoration: none; color: white;" href="Postinganberita.html">Read
+										More</button></a>
 							</div>
 						</div>
 					</div>
@@ -309,8 +353,8 @@
 					<div class="card">
 						<img src="Event3.jpg" class="card-img-top" alt="..." height="300" />
 						<div class="card-body">
-							<p class="card-text">[EVENT] Prof Azriyenni 
-								Guru Besar Teknik Elektro 
+							<p class="card-text">[EVENT] Prof Azriyenni
+								Guru Besar Teknik Elektro
 								Pertama di Riau</p>
 							<div class="text-center">
 								<button class="btn-primary"
@@ -325,9 +369,9 @@
 						<img src="event4.jpg" class="card-img-top" alt="..." height="300" />
 						<div class="card-body">
 							<p class="card-text">[EVENT] KULIAH UMUM
-								Data Analystics For Health 
+								Data Analystics For Health
 								Sector</p>
-								<br>
+							<br>
 							<div class="text-center">
 								<button class="btn-primary"
 									style="background-color: rgb(34, 58, 114); color: aliceblue; font-weight: 500px; font-family: EB-Garamond; padding: 2px 20px; border: none;">Read
@@ -340,7 +384,7 @@
 					<div class="card">
 						<img src="event5.jpg" class="card-img-top" alt="..." height="300" />
 						<div class="card-body">
-							<p class="card-text">[EVENT] KULIAH UMUM : 
+							<p class="card-text">[EVENT] KULIAH UMUM :
 								Computer Vision dan Artificial
 								Intelligence di Era Revolusi 4.0</p>
 							<div class="text-center">
@@ -359,18 +403,18 @@
 	<section id="Kemitraan">
 		<div id="carouselExampleAutoplaying" class="carousel slide carouselkemitraan" data-bs-ride="carousel">
 			<div class="carousel-inner">
-			  <div class="carousel-item active">
-				<img src="logo/kemitraan1.png" class="d-block w-100" alt="...">
-			  </div>
-			  <div class="carousel-item">
-				<img src="logo/kemitraan2.png" class="d-block w-100" alt="...">
-			  </div>
-			  <div class="carousel-item">
-				<img src="logo/kemitraan3.png" class="d-block w-100" alt="...">
-			  </div>
-			  <div class="carousel-item">
-				<img src="logo/kemitraan4.png" class="d-block w-100" alt="...">
-			  </div>
+				<div class="carousel-item active">
+					<img src="logo/kemitraan1.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="logo/kemitraan2.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="logo/kemitraan3.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="logo/kemitraan4.png" class="d-block w-100" alt="...">
+				</div>
 			</div>
 			<!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
 			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -379,8 +423,8 @@
 			<!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
 			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 			  <span class="visually-hidden">Next</span>
-			</button> -->	
-		  </div>
+			</button> -->
+		</div>
 		<div class="container-fluid pb-5 kemitraandesktop">
 			<div class="row text-center mb-5">
 				<div class="col">
@@ -390,7 +434,8 @@
 							style="display: flex; align-items: center; justify-content: center; width: 100%; padding-bottom: 20p; ">
 							<span class="garisjudul"></span>
 							<h2 class="teksgarisjudul"
-								style="color: #1B3659 ; font-weight: 600; text-align: center; margin-top: 8px;">Kemitraan
+								style="color: #1B3659 ; font-weight: 600; text-align: center; margin-top: 8px;">
+								Kemitraan
 							</h2>
 							<span class="garisjudul"></span>
 						</div>
@@ -432,36 +477,46 @@
 	<footer class="text_white img-fluid" style="font-family: Poppins;">
 		<div class="container-fluid pb-5">
 			<div class="row footerpdd">
-				<div class="col-md-2 mb-4 p-4 logounrifoot" >
-					<img src="Front End/Gambar/folder untuk gambar template/logo.png" alt="unri" class="mt-5 footbg" width="180px">
+				<div class="col-md-2 mb-4 p-4 logounrifoot">
+					<img src="Front End/Gambar/folder untuk gambar template/logo.png" alt="unri" class="mt-5 footbg"
+						width="180px">
 				</div>
 
 				<div class="col-md-3" style="font-size: larger">
-					<h4 class="ftbagianjudulatas style="color: antiquewhite;" class="font-weight-bold mb-3 judulfooter"> <a href="">Kontak</a> 
+					<h4 class="ftbagianjudulatas style=" color: antiquewhite;"
+						class="font-weight-bold mb-3 judulfooter"> <a href="">Kontak</a>
 					</h4>
 					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">Gedung C lantai 2</a></p>
-					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">Fakultas Teknik Universitas Riau</a></p>
+					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">Fakultas Teknik Universitas
+							Riau</a></p>
 					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">Kampus BinaWidya</a></p>
 					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">Jl Hr Soebrantas KM 12.5</a></p>
-					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">Simpang baru Binawdya,Pekanbaru</a></p>
+					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">Simpang baru Binawdya,Pekanbaru</a>
+					</p>
 					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">28293</a></p>
-					<p class="ftbagiankontak" style="color: antiquewhite"><a href="">E-mail:informatika@eng.unri.ac.id</a></p>
+					<p class="ftbagiankontak" style="color: antiquewhite"><a
+							href="">E-mail:informatika@eng.unri.ac.id</a></p>
 				</div>
 				<div class="col-md-3" style="font-size: larger">
-					<h4 class="ftbagianjudulatas" style="color: antiquewhite" class="font-weight-bold mb-3 judulfooter"><a href="">SI Teknik Informatika</a></h4>
+					<h4 class="ftbagianjudulatas" style="color: antiquewhite" class="font-weight-bold mb-3 judulfooter">
+						<a href="">SI Teknik Informatika</a></h4>
 					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="berita.html">Berita</a></p>
 					<br>
 					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="event.html">Event</a></p>
 					<br>
-					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="poster.html">Poster Mahasiswa</a></p>
+					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="poster.html">Poster
+							Mahasiswa</a></p>
 					<br>
-					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="prestasimahasiswa.html">Prestasi Mahasiswa</a></p>
+					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a
+							href="prestasimahasiswa.html">Prestasi Mahasiswa</a></p>
 				</div>
 				<div class="col-md-3" style="font-size: larger">
-					<h4 class="ftbagianjudulatas" style="color: antiquewhite" class="font-weight-bold mb-3 judulfooter"><a href="">Link Terkait</a></h4>
+					<h4 class="ftbagianjudulatas" style="color: antiquewhite" class="font-weight-bold mb-3 judulfooter">
+						<a href="">Link Terkait</a></h4>
 					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="">Beasiswa</a></p>
 					<br>
-					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="">Konferensi Internasional</a></p>
+					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="">Konferensi
+							Internasional</a></p>
 					<br>
 					<p class="ftbagian" style="color: antiquewhite" class="bullet"><a href="">JTracer Study</a></p>
 				</div>
