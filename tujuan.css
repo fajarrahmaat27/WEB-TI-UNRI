@@ -439,3 +439,39 @@ img{
     
 }
 
+@media  screen and (max-width : 1399px){
+    .tujuan{
+        width: 1200px;     
+    }
+}
+
+@media  screen and (max-width : 1200px){
+    .tujuan{
+        width: 1000px;     
+    }
+}
+
+@media  screen and (max-width : 1005px){
+    .tujuan{
+        width: 850px;     
+    }
+}
+
+@media  screen and (max-width : 850px){
+    .tujuan{
+        width: 650px;     
+    }
+}
+
+@media  screen and (max-width : 650px){
+    .tujuan{
+        width: 470px;     
+    }
+}
+
+@media  screen and (max-width : 470px){
+    .tujuan{
+        width: 370px;     
+    }
+}
+

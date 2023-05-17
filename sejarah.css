@@ -11,6 +11,11 @@ body{
     overflow-x: hidden;
 }
 
+.judulberita {
+    padding: 125px;
+    align-items: center;
+}
+
 .btn {
     text-decoration: none;
             border: none;
@@ -419,5 +424,74 @@ img{
     }
 
     
+}
+@media  screen and (max-width : 390px){
+
+    .judulberita{
+        padding: 80px;
+    }
+
+}
+
+@media  screen and (max-width :769px){
+
+    .sejarah{
+        margin-top: 40px;
+    }
+
+}
+
+@media  screen and (max-width : 1446px){
+    .sejarah{
+        width: 1200px;   
+    }
+}
+
+@media  screen and (max-width : 1250px){
+    .sejarah{
+        width: 1000px;   
+    }
+}
+
+@media  screen and (max-width : 1050px){
+    .sejarah{
+        width: 920px;   
+    }
+}
+
+@media  screen and (max-width : 967px){
+    .sejarah{
+        width: 780px;   
+    }
+}
+
+@media  screen and (max-width : 828px){
+    .sejarah{
+        width: 700px;   
+    }
+}
+
+@media  screen and (max-width :748px){
+    .sejarah{
+        width: 600px;   
+    }
+}
+
+@media  screen and (max-width :648px){
+    .sejarah{
+        width: 500px;   
+    }
+}
+
+@media  screen and (max-width :548px){
+    .sejarah{
+        width: 400px;   
+    }
+}
+
+@media  screen and (max-width :448px){
+    .sejarah{
+        width: 300px;   
+    }
 }
 

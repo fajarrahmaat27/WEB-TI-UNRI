@@ -20,6 +20,10 @@ body{
     background-color: white;
     }
     
+.judulberita{
+    padding: 125px;
+    align-items: center;
+}
 
 .btn {
     text-decoration: none;
@@ -425,4 +429,20 @@ img{
     }
 
     
+}
+
+@media  screen and (max-width : 495px){
+
+    .judulberita{
+        padding: 120px;
+    }
+
+}
+
+@media  screen and (max-width : 417px){
+
+    .judulberita{
+        padding: 80px;
+    }
+
 }

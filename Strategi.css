@@ -29,7 +29,7 @@ body{
         left: 36%
         }
 
-.tujuan{
+.strategi{
     width: 1400px;
 }        
 
@@ -441,3 +441,44 @@ img{
     
 }
 
+@media  screen and (max-width : 1399px){
+    .strategi{
+        width: 1200px;     
+    }
+}
+
+@media  screen and (max-width : 1200px){
+    .strategi{
+        width: 1000px;     
+    }
+}
+
+@media  screen and (max-width : 1005px){
+    .strategi{
+        width: 850px;     
+    }
+}
+
+@media  screen and (max-width : 855px){
+    .strategi{
+        width: 730px;     
+    }
+}
+
+@media  screen and (max-width :730px){
+    .strategi{
+        width: 620px;     
+    }
+}
+
+@media  screen and (max-width :620px){
+    .strategi{
+        width: 500px;     
+    }
+}
+
+@media  screen and (max-width :503px){
+    .strategi{
+        width: 400px;     
+    }
+}
