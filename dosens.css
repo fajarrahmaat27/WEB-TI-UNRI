@@ -14,6 +14,15 @@ body{
 
 /* unutk bg footer */
 
+.judulfooter::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    }
+    
+
 footer{
     background: url(unri-ffooter.png);
     background-repeat: no-repeat;
@@ -309,10 +318,10 @@ form.search-desktop{
         width: 200px;
     }
 
-    .judulfooter::after{
+    .judulfootere::after{
         content: "";
         display: block;
-        width: 80%;
+        width: 100%;
         height: 3px;
         background-color: white;
         }
