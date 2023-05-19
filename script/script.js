@@ -26,9 +26,10 @@ const parentDropdown = document.querySelectorAll(
 parentDropdown.forEach((dropdownItem, i) => {
     console.log(dropdownItem.lastElementChild)
     dropdownItem.addEventListener("mouseover", () => {
-        dropdownItem.lastElementChild.style.display = "flex"
+        dropdownItem.lastElementChild.style.display = "block"
     });
     dropdownItem.addEventListener("mouseout", () => {
         dropdownItem.lastElementChild.style.display = "none"
     });
 });
+

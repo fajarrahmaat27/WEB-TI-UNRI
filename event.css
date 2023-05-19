@@ -87,6 +87,8 @@ background-color: white;
 }
 
 
+
+
 .bullet{
     display: flex;
     align-items: center;
@@ -457,3 +459,4 @@ form.search-desktop{
 
     
 }
+
