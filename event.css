@@ -353,6 +353,7 @@ form.search-desktop{
     }
     .sidebarmobile{
         position: fixed;
+        width: 300px;
         z-index: 100;
         left: -100vw;
         transition: all .5s ease-in-out;
@@ -366,6 +367,30 @@ form.search-desktop{
     .toggle .close-btn {
         display: none;
     }
+
+    .sidenav a, .dropdown1-btn {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        display: block;
+        border: none;
+        background: none;
+        width:100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+      }
+
+      .sidenav a:hover, .dropdown1-btn:hover {
+        color: #f1f1f1;
+      }
+      .dropdown1-container {
+        display: none;
+        background-color: #1B3659;
+        color: white;
+        padding-left: 8px;
+      }
 
 }
 
