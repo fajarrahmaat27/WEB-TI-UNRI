@@ -354,6 +354,7 @@ form.search-desktop{
     .sidebarmobile{
         position: fixed;
         width: 300px;
+        height: 100%;
         z-index: 100;
         left: -100vw;
         transition: all .5s ease-in-out;
