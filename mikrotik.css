@@ -160,14 +160,42 @@ nav a{
     font-size: 16px; 
 }
 
+/* menu hover */
+
 .menu a{
-    list-style: none;
+    position: relative;
     text-decoration: none;
-    font-size: 17px;
-    font-weight: 570;
     font-family: 'Poppins' sans-serif;
-   
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    letter-spacing: 0.5px;
 }
+
+.menu a:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(29, 7, 81);
+    height: 5px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.7s;
+}
+
+.dropdown-menu a:hover{
+  color: #4283d8;
+}
+.menu a:hover:after{
+    width: 100%;
+}
+.menu a:hover{
+    color: rgb(64, 117, 163);
+}
+
+.menu a:active{
+    color: rgb(64, 117, 163);
+}
+
 
 .toggle{
     font-size: 30px;
@@ -280,12 +308,9 @@ img{
     background-color: blue;
 }
 
-
-
-
 /* responsive */
 
-@media  screen and (max-width : 1115px){
+@media  screen and (max-width : 1320px){
     nav{
         display: flex;
         position: relative;
@@ -340,6 +365,9 @@ img{
     }
     .sidebarmobile{
         position: fixed;
+        overflow: auto;
+        width: 80%;
+        height: 100%;
         z-index: 100;
         left: -100vw;
         transition: all .5s ease-in-out;
@@ -353,6 +381,30 @@ img{
     .toggle .close-btn {
         display: none;
     }
+
+    .sidenav a, .dropdown1-btn {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        display: block;
+        border: none;
+        background: none;
+        width:100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+      }
+
+      .sidenav a:hover, .dropdown1-btn:hover {
+        color: #f1f1f1;
+      }
+      .dropdown1-container {
+        display: none;
+        background-color: #1B3659;
+        color: white;
+        padding-left: 8px;
+      }
 
 }
 
@@ -401,7 +453,7 @@ img{
     }
     .dropdown:hover > .dropdown-menu 
     {
-        margin-top: 20px;
+        margin-top: 15px;
         display: block !important;
     }
     .dropstart:hover > .dropdown-menu{
