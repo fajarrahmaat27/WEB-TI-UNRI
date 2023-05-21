@@ -471,3 +471,11 @@ form.search-desktop{
 
     
 }
+
+@media  screen and (min-width : 385px) {
+    .judulberita{
+     margin-left: -15px;
+    }
+ 
+     
+ }

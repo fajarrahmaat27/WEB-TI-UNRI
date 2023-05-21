@@ -548,5 +548,8 @@ img{
     .sejarah{
         width: 300px;   
     }
+    .judulberita{
+        margin-left: -20px;
+    }
 }
 

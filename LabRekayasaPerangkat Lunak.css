@@ -511,9 +511,9 @@ img{
     }
 }
 
-@media  screen and (max-width :495px){
-    .judulberita{
-       padding: 5px;
+@media  screen and (max-width :380px){
+    .berita{
+       padding-top: 5px;
     }
 }
 

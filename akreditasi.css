@@ -472,3 +472,33 @@ img{
 
     
 }
+
+@media screen and (min-width : 420px) {
+    .judulberita{
+        margin-left: -27px;
+    }
+}
+
+@media screen and (min-width : 417px) {
+    .judulberita{
+        margin-left: -27px;
+    }
+}
+
+@media screen and (min-width : 417px) {
+    .judulberita{
+        margin-left: -27px;
+    }
+}
+
+@media screen and (min-width : 400px) {
+    .judulberita{
+        margin-left: -38px;
+    }
+}
+
+@media screen and (min-width : 380px) {
+    .judulberita{
+        margin-left: -50px;
+    }
+}

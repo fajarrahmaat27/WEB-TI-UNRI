@@ -632,6 +632,13 @@ img{
     }
 }
 
+@media  screen and (max-width : 500px){
+    .berita{
+        padding-top: 40px;
+     }
+}
+
+
 @media  screen and (max-width : 472px){
     .judulberita{
         padding: 35px;
@@ -642,17 +649,30 @@ img{
     .judulberita{
         padding: 28px;
     }
+    
 }
 
 @media  screen and (max-width : 420px){
     .judulberita{
         padding: 20px;
     }
+
+    .berita{
+        padding-top: 50px;
+     }
+ 
 }
 
 @media  screen and (max-width : 406px){
     .judulberita{
         padding: 10px;
+    }
+    
+}
+
+@media  screen and (max-width : 385px){
+    .berita{
+       padding-top: 40px;
     }
 }
 
