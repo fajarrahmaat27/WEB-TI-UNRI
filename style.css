@@ -38,6 +38,7 @@ footer{
     background-size:cover ;
 }
 
+
 .ftbagian a{
     text-decoration: none;
     color: white;
@@ -96,6 +97,17 @@ background-color: white;
 /* #Berita {
     margin: 30px;
 } */
+
+/* card */
+.cardopsi{
+    border:none;
+    box-shadow: 5px 5px 10px 3px black;
+    border-radius: 0px;
+}
+
+.judulevent{
+    font-weight: bold;
+}
 
 /* Header */
 
@@ -162,13 +174,40 @@ nav a{
     font-size: 16px; 
 }
 
+/* menu hover */
+
 .menu a{
-    list-style: none;
+    position: relative;
     text-decoration: none;
-    font-size: 17px;
-    font-weight: 570;
     font-family: 'Poppins' sans-serif;
-   
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.menu a:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(29, 7, 81);
+    height: 5px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.7s;
+}
+
+.dropdown-menu a:hover{
+  color: #4283d8;
+}
+.menu a:hover:after{
+    width: 100%;
+}
+.menu a:hover{
+    color: rgb(64, 117, 163);
+}
+
+.menu a:active{
+    color: rgb(64, 117, 163);
 }
 
 .toggle{
@@ -287,10 +326,257 @@ form.search-desktop{
 }
 
 
+/* penerimaan mahasiswa */
+.penerimaanmahasiswa{
+    width: 1200px;
+}
+
+.imgpenerimaan{
+    height: 484px;
+}
+
+.tulisanpenerimaan{
+    color: white;
+    font-family: Poppins;       
+}
+
+.tulisanpenerimaan h1{
+    padding-top: 50px;
+    padding-left: 100px;
+    font-weight: bold;
+}
+
+.tulisanpenerimaan p{
+    text-align: left;
+    padding-left: 100px;
+    font-size: 21px;
+}
+
+.buttonpenerimaan{
+    background-color: rgb(34,  58, 114);
+    color: white;
+    font-weight: 500px;
+    font-family: Poppins;
+    padding: 5px 20px;
+    margin-left: 100px;
+    border: none;
+}
+
+@media  screen and (max-width : 1206px){
+    .penerimaanmahasiswa{
+        width: 1000px;
+        height: 400px;
+    }
+
+    .imgpenerimaan{
+        height: 400px;
+    }
+
+    .tulisanpenerimaan h1{
+        padding-top: 20px;
+        padding-left: 50px;
+        font-weight: bold;
+        font-size: 27px;
+    }
+    
+    .tulisanpenerimaan p{
+        text-align: left;
+        padding-left: 50px;
+        font-size: 21px;
+    }
+
+}
+
+@media  screen and (max-width : 1000px){
+    .penerimaanmahasiswa{
+        width: 750px;
+        height: 350px;
+
+    }
+
+    .buttonpenerimaan{
+        margin-left: 40px;
+    }
+
+    .imgpenerimaan{
+        height: 350px;
+    }
+    .tulisanpenerimaan h1{
+        padding-top: 20px;
+        padding-left: 50px;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .penerimaanmahasisswa{
+        margin-bottom: 50px;
+    }
+    
+    .tulisanpenerimaan p{
+        text-align: left;
+        padding-left: 50px;
+        font-size: 17px;
+    }
+
+}
+
+@media  screen and (max-width : 767px){
+    .penerimaanmahasiswa{
+        margin: 5px;
+        height: 250px;
+        width: 80%;
+    }
+
+    .penerimaanmahasisswa{
+        margin-bottom: 570px;
+    }
+
+    .imgpenerimaan{
+        height: 339.8px;
+        width: 613.11px;
+    }
+
+    .tulisanpenerimaan h1{
+        padding-top: 20px;
+        padding-left: 50px;
+        font-weight: bold;
+        font-size: 28px;
+    }
+    .tulisanpenerimaan p{
+        text-align: left;
+        padding-left: 50px;
+        font-size: 24px;
+    }
+
+    .buttonpenerimaan{
+        margin-left: 30%;
+    }
+
+
+}
+
+/* @media  screen and (max-width : 767px){
+    .penerimaanmahasiswa{
+        margin: 5px;
+        height: 250px;
+    }
+
+    .penerimaanmahasisswa{
+        margin-bottom: 150px;
+    }
+
+    .imgpenerimaan{
+        height: 339.8px;
+        width: 300px;
+    }
+
+} */
+
+
+@media  screen and (max-width : 702px){
+    .penerimaanmahasiswa{
+        width: 600px;           
+        margin: 20px;
+    }
+
+    .imgpenerimaan{
+        height: 400px;
+        width: 700px;   
+    }
+
+    .penerimaanmahasisswa{
+        margin-bottom: 500px;
+    }
+
+}
+
+@media  screen and (max-width : 600px){
+    .penerimaanmahasiswa{
+        width: 500px;           
+        margin: 20px;
+    }
+
+    .tulisanpenerimaan h1{
+        font-size: 20px;
+    }
+
+    .imgpenerimaan{
+        height: 300px;
+        width: 500px;   
+    }
+
+}
+
+@media  screen and (max-width : 493px){
+    .penerimaanmahasiswa{
+        width: 400px;           
+        margin: 20px;
+    }
+
+    .tulisanpenerimaan h1{
+    padding-top: 25px;
+    padding-left: 50px;
+    font-weight: bold;
+    }
+
+    .tulisanpenerimaan p{
+    text-align: left;
+    padding-left: 50px;
+    font-size: 21px;
+}
+
+    .imgpenerimaan{
+        height: 300px;
+        width: 400px;   
+    }
+
+    .buttonpenerimaan{
+        margin-left: 70px;
+    }
+
+}
+
+@media  screen and (max-width : 400px){
+    .penerimaanmahasiswa{
+        width: 300px;           
+        margin: 20px;
+    }
+
+    .tulisanpenerimaan h1{
+    padding-top: 25px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: -10px;
+    }
+
+    .penerimaanmahasisswa{
+    margin-bottom: 390px;
+    }
+
+    .tulisanpenerimaan p{
+    text-align: left;
+    padding-left: 50px;
+    font-size: 14px;
+    margin-left: -10px;
+}
+ 
+    .imgpenerimaan{
+        height: 260px;
+        width: 360px;   
+    }
+
+    .buttonpenerimaan{
+        margin-left: 20px;
+    }
+
+}
+
+
 
 /* responsive */
 
-@media  screen and (max-width : 1115px){
+@media  screen and (max-width : 1320px){
     nav{
         display: flex;
         position: relative;
@@ -345,6 +631,9 @@ form.search-desktop{
     }
     .sidebarmobile{
         position: fixed;
+        overflow: auto;
+        width: 80%;
+        height: 100%;
         z-index: 100;
         left: -100vw;
         transition: all .5s ease-in-out;
@@ -359,8 +648,31 @@ form.search-desktop{
         display: none;
     }
 
-}
+    .sidenav a, .dropdown1-btn {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        display: block;
+        border: none;
+        background: none;
+        width:100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+      }
 
+      .sidenav a:hover, .dropdown1-btn:hover {
+        color: #f1f1f1;
+      }
+      .dropdown1-container {
+        display: none;
+        background-color: #1B3659;
+        color: white;
+        padding-left: 8px;
+      }
+
+}
 
 @media  screen and (max-width : 720px){
     .logounrifoot{
@@ -425,7 +737,7 @@ form.search-desktop{
     }
     .dropdown:hover > .dropdown-menu 
     {
-        margin-top: 20px;
+        margin-top: 15px;
         display: block !important;
     }
     .dropstart:hover > .dropdown-menu{
