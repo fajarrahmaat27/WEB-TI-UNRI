@@ -180,7 +180,7 @@ nav a{
 .menu a{
     position: relative;
     text-decoration: none;
-    font-family: 'Poppins' sans-serif;
+    font-family: Poppins;
     color: rgb(0, 0, 0);
     font-size: 18px;
     letter-spacing: 0.5px;
