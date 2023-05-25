@@ -26,9 +26,6 @@ body{
             font-weight: bold;
 }
 
-.mikrotik{
-width: 1400px;
-}
 
 .btn:hover{
     background-color: #102138;
@@ -39,10 +36,28 @@ width: 1400px;
     background-color: #fff;
 }
 
+.sejarah{
+ font-family: Poppins;
+}
+
+.imgsejarah{
+    width: 100%;
+    object-position: bottom;
+    border-radius: 5px;
+}
+
+
+.about-img img{
+    max-width: 530px;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
 /* unutk bg footer */
 
 footer{
-    background: url(unri-ffooter.png);
+    background: url(unri-ffooter.jpg);
     background-repeat: no-repeat;
     background-size:cover ;
 }
