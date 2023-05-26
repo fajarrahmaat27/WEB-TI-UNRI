@@ -30,7 +30,21 @@ body{
         }
 
 .strategi{
-    width: 1400px;
+    height: 2000px;
+    font-family: Poppins;
+    font-size: 25px;
+    color: white;
+    border-radius: 0px 138px 0px 37px;
+    -webkit-border-radius: 20px 138px 0px 37px;
+    -moz-border-radius: 0px 138px 0px 37px;
+    background: #092b55;
+    background: linear-gradient(90deg,#092b55 0%, #176ca3 90%);
+    background: -webkit-linear-gradient(90deg,#092b55 0%, #176ca3 90%);
+    background: -moz-linear-gradient(90deg,#092b55 0%, #176ca3 90%);
+    border: 8px solid #0a4d88;
+    box-shadow: -2px 11px 20px 1px rgba(31,74,152,0.83);
+    -webkit-box-shadow: -2px 11px 20px 1px rgba(31,74,152,0.83);
+    -moz-box-shadow: -2px 11px 20px 1px rgba(31,74,152,0.83);
 }        
 
 .btn {
@@ -495,47 +509,56 @@ img{
     
 }
 
-@media  screen and (max-width : 1399px){
-    .strategi{
-        width: 1200px;     
+@media  screen and (max-width : 1534px){
+    .tulisan4{
+        font-size: 23px;   
     }
 }
 
-@media  screen and (max-width : 1200px){
-    .strategi{
-        width: 1000px;     
+@media  screen and (max-width : 1247px){
+    .tulisan4{
+        font-size: 20px;   
     }
 }
 
-@media  screen and (max-width : 1005px){
-    .strategi{
-        width: 850px;     
+@media  screen and (max-width : 988px){
+    .tulisan4{
+        font-size: 18px;   
     }
 }
 
-@media  screen and (max-width : 855px){
-    .strategi{
-        width: 730px;     
+@media  screen and (max-width :834px){
+    .tulisan4{
+        font-size: 16px;   
     }
 }
 
-@media  screen and (max-width :730px){
-    .strategi{
-        width: 620px;     
+@media  screen and (max-width :700px){
+    .tulisan4{
+        font-size: 14px;   
     }
 }
 
-@media  screen and (max-width :620px){
-    .strategi{
-        width: 500px;     
+@media  screen and (max-width :563px){
+    .tulisan4{
+        font-size: 12px;   
     }
 }
 
-@media  screen and (max-width :503px){
-    .strategi{
-        width: 400px;     
+@media  screen and (max-width :481px){
+    .tulisan4{
+        font-size: 10px;   
     }
+}
+
+@media  screen and (max-width :381px){
+    .tulisan4{
+        font-size: 8px;   
+    }
+}
+
+@media  screen and (max-width :388px){
     .judulberita{
-        margin-left: -25px;
+        margin-left: -30px;
     }
 }

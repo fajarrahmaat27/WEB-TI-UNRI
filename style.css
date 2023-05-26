@@ -57,6 +57,10 @@ background-color: white;
     color: white;
 }
 
+.ftbagianjudulatas a :hover{
+    color: rgb(205, 44, 44);
+}
+
 
 .ftbagian{
     display: flex;
@@ -77,6 +81,11 @@ background-color: white;
     color: white;
 }
 
+
+
+.ftbagiankontak{
+    color: #ffffff;
+}
 
 .bullet{
     display: flex;
