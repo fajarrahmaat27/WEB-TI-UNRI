@@ -30,7 +30,19 @@ body{
         }
 
 .tujuan{
-    width: 1400px;
+    width: auto;
+    height: 800px;
+    font-size: 25px;
+    color: white;
+    padding-top: 45px;
+    border-radius: 84px 84px 84px 84px;
+    -webkit-border-radius: 84px 84px 84px 84px;
+    -moz-border-radius: 84px 84px 84px 84px;
+    -moz-border-radius: 11px 11px 86px 10px;
+    background: #092b55;
+  background: linear-gradient(290deg,#092b55 0%, #0a4d88 80%);
+  background: -webkit-linear-gradient(290deg,#092b55 0%, #0a4d88 80%);
+  background: -moz-linear-gradient(290deg,#092b55 0%, #0a4d88 80%);
 }        
 
 .btn {
