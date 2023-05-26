@@ -40,9 +40,12 @@ body{
     -moz-border-radius: 84px 84px 84px 84px;
     -moz-border-radius: 11px 11px 86px 10px;
     background: #092b55;
-  background: linear-gradient(290deg,#092b55 0%, #0a4d88 80%);
-  background: -webkit-linear-gradient(290deg,#092b55 0%, #0a4d88 80%);
-  background: -moz-linear-gradient(290deg,#092b55 0%, #0a4d88 80%);
+    background: linear-gradient(290deg,#092b55 0%, #0a4d88 80%);
+   background: -webkit-linear-gradient(290deg,#092b55 0%, #0a4d88 80%);
+    background: -moz-linear-gradient(290deg,#092b55 0%, #0a4d88 80%);
+    box-shadow: 5px 2px 42px 1px rgba(25,28,112,0.7);
+   -webkit-box-shadow: 5px 2px 42px 1px rgba(25,28,112,0.7);
+   -moz-box-shadow: 5px 2px 42px 1px rgba(25,28,112,0.7);
 }        
 
 .btn {
@@ -506,42 +509,45 @@ img{
     
 }
 
-@media  screen and (max-width : 1399px){
-    .tujuan{
-        width: 1200px;     
+@media  screen and (max-width :1516px){
+    .tulisan2{
+        font-size: 22px;    
     }
 }
 
-@media  screen and (max-width : 1200px){
-    .tujuan{
-        width: 1000px;     
+@media  screen and (max-width : 1220px){
+    .tulisan2{
+        font-size: 20px;    
     }
 }
 
-@media  screen and (max-width : 1005px){
-    .tujuan{
-        width: 850px;     
+@media  screen and (max-width : 1068px){
+    .tulisan2{
+        font-size: 18px;    
     }
 }
 
 @media  screen and (max-width : 850px){
-    .tujuan{
-        width: 650px;     
+    .tulisan2{
+        font-size: 16px;    
     }
 }
 
 @media  screen and (max-width : 650px){
-    .tujuan{
-        width: 470px;     
+    .tulisan2{
+        font-size: 14px;    
     }
 }
 
-@media  screen and (max-width : 470px){
-    .tujuan{
-        width: 370px;     
+@media  screen and (max-width : 513px){
+    .tulisan2{
+        font-size: 12px;    
     }
-    .judulberita{
-        margin-left: -15px;
+}
+
+@media  screen and (max-width : 406px){
+    .tulisan2{
+        font-size: 10px;    
     }
 }
 
