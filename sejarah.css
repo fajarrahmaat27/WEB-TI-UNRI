@@ -594,3 +594,9 @@ img{
     }
 }
 
+@media  screen and (max-width : 768px){
+    .imgsejarah{
+      padding-top: 35px;
+    }
+}
+
