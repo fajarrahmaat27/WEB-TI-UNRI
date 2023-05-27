@@ -36,6 +36,11 @@ body{
     background-color: #fff;
 }
 
+.ftbagian :hover{
+    color:  rgb(49, 80, 154);
+ }
+
+
 .sejarah{
     font-family: Poppins;
     color: white;

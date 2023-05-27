@@ -13,11 +13,10 @@ body{
 
 .btn {
     text-decoration: none;
-            border: none;
-            padding: 8px 30px;
-            font-size: 16px;
-            background-color: rgb(34, 58, 114);;
-            font-weight: bold;
+    padding: 8px 30px;
+     font-size: 16px;
+     background-color: rgb(34, 58, 114);;
+     font-weight: bold;
 }
 
 .btn:hover{
@@ -70,6 +69,10 @@ height: 3px;
 background-color: white;
 }
 
+.ftbagianjudulatas:hover{
+   color: #4283d8;
+    }
+
 .ftbagianjudulatas a{
     text-decoration: none;
     color: white;
@@ -109,6 +112,11 @@ background-color: white;
     display: flex;
     align-items: center;
 }
+
+.ftbagian :hover{
+   color:  rgb(49, 80, 154);
+}
+
 .bullet::before{
     content: "";
     margin-right:5px;

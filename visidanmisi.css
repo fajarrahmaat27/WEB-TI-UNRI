@@ -11,6 +11,10 @@ body{
     overflow-x: hidden;
 }
 
+.ftbagian :hover{
+    color:  rgb(49, 80, 154);
+ }
+
 .visi{
 height: 40px;    
 background-color: #102138;

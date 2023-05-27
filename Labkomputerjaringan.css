@@ -15,9 +15,11 @@ body{
     border-radius: 200px 200px 200px 200px;
 -webkit-border-radius: 200px 200px 200px 200px;
 -moz-border-radius: 200px 200px 200px 200px;
-
-
 }
+
+.ftbagian :hover{
+    color:  rgb(49, 80, 154);
+ }
 
 
 .card{

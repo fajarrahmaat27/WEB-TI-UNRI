@@ -11,7 +11,10 @@ body{
     overflow-x: hidden;
 }
 
-
+.ftbagian :hover{
+    color:  rgb(49, 80, 154);
+ }
+ 
 /* unutk bg footer */
 
 /* unutk bg footer */

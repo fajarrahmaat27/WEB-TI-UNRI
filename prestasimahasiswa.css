@@ -11,6 +11,10 @@ body{
     overflow-x: hidden;
 }
 
+.ftbagian :hover{
+    color:  rgb(49, 80, 154);
+ }
+
 
 /* event utama */
 @media  screen and (max-width : 1020px){
