@@ -562,14 +562,6 @@ img{
         width: 200px;
     }
 
-    .judulfooter::after{
-        content: "";
-        display: block;
-        width: 80%;
-        height: 3px;
-        background-color: white;
-        }
-
         .footbg{
             width: 100%;
             height: auto;
