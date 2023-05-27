@@ -21,8 +21,45 @@ body{
             font-weight: bold;
 }
 
-.mikrotik{
-width: 1400px;
+.fotoo{
+    border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+
+
+}
+
+
+.card{
+    height:800px; background-color: #1b3659;
+     border-radius: 20px;
+     background: #3a6dae;
+background: linear-gradient(130deg,#3a6dae 0%, #1b3659 40%);
+background: -webkit-linear-gradient(130deg,#3a6dae 0%, #1b3659 40%);
+background: -moz-linear-gradient(130deg,#3a6dae 0%, #1b3659 40%);
+box-shadow: 0px 9px 18px 4px rgba(27,54,89,0.75);
+-webkit-box-shadow: 0px 9px 18px 4px rgba(27,54,89,0.75);
+-moz-box-shadow: 0px 9px 18px 4px rgba(27,54,89,0.75);
+
+}
+
+.labrekayasa{
+    font-size: 20px;
+    padding-top: 80px;
+    color: white;
+    width: 93%;
+    height: 300px;
+    font-family: Poppins;
+    border-radius: 10px 145px 146px 10px;
+-webkit-border-radius: 10px 145px 146px 10px;
+-moz-border-radius: 10px 145px 146px 10px;
+background: #092b55;
+background: linear-gradient(326deg,#092b55 0%, #0a4d88 80%);
+background: -webkit-linear-gradient(326deg,#092b55 0%, #0a4d88 80%);
+background: -moz-linear-gradient(326deg,#092b55 0%, #0a4d88 80%);
+box-shadow: 5px 2px 42px 1px rgba(25,28,112,0.7);
+-webkit-box-shadow: 5px 2px 42px 1px rgba(25,28,112,0.7);
+-moz-box-shadow: 5px 2px 42px 1px rgba(25,28,112,0.7);
 }
 
 .btn:hover{
