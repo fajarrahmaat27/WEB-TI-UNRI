@@ -457,12 +457,13 @@ img{
     }
 
     .judulfooter::after{
-    content: "";
-    display: block;
-    width: 100%;
-    height: 3px;
-    background-color: white;
-    }
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        }
+        
     
         .footbg{
             width: 100%;
