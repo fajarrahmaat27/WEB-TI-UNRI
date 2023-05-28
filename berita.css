@@ -475,3 +475,171 @@ form.search-desktop{
 
     
 }
+
+
+.btn-primary {
+    text-decoration: none;
+    padding: 8px 30px;
+     font-size: 16px;
+     background-color: rgb(34, 58, 114);;
+     font-weight: bold;
+}
+
+.btn-primary a{
+    font-family: Poppins !important;
+    padding: 3px 25px;
+}
+
+.cardopsi{
+    border:none;
+    box-shadow: 5px 5px 10px 3px black;
+    border-radius: 0px;
+    height: 520px !important;
+}
+
+.card-img-top{
+    height: 300px !important;
+}
+
+
+/* responsive card */
+
+@media  screen and (max-width : 1117px){
+    .cardopsi{
+        height:500px !important;
+    }
+
+    .card-img-top{
+        height: 250px !important;
+    }
+}
+
+@media  screen and (max-width : 1001px){
+    .cardopsi{
+        height:480px !important;
+    }
+
+    .card-img-top{
+        height: 230px !important;
+    }
+}
+
+@media  screen and (max-width : 949px){
+    .cardopsi{
+        height:470px !important;
+    }
+
+    .card-img-top{
+        height: 200px !important;
+    }
+}
+
+@media  screen and (max-width : 949px){
+    .cardopsi{
+        height:470px !important;
+    }
+
+    .card-img-top{
+        height: 180px !important;
+    }
+}
+
+@media  screen and (max-width : 855px){
+    .cardopsi{
+        height:490px !important;
+    }
+
+    .card-img-top{
+        height: 180px !important;
+    }
+}
+
+@media  screen and (max-width : 768px){
+    .cardopsi{
+        height:430px !important;
+    }
+
+    .card-img-top{
+        height: 180px !important;
+    }
+}
+
+@media  screen and (max-width : 665px){
+    .cardopsi{
+        height:450px !important;
+    }
+
+    .card-img-top{
+        height: 180px !important;
+    }
+}
+
+@media  screen and (max-width : 624px){
+    .cardopsi{
+        height:450px !important;
+    }
+
+    .card-img-top{
+        height: 180px !important;
+    }
+
+    .judulevent{
+        font-size: 14px;
+    }
+    .tanggalberita{
+        font-size: smaller;
+    }
+}
+
+@media  screen and (max-width : 575px){
+    .cardopsi{
+        height:400px !important;
+    }
+
+    .card-img-top{
+        height: 200px !important;
+    }
+
+    .judulevent{
+        font-size: 14px;
+    }
+    .tanggalberita{
+        font-size: smaller;
+    }
+}
+
+@media  screen and (max-width : 575px){
+    .cardopsi{
+        height:400px !important;
+    }
+
+    .card-img-top{
+        height: 200px !important;
+    }
+
+    .judulevent{
+        font-size: 14px !important;
+    }
+    .tanggalberita{
+        font-size: 12px !important;
+    }
+}
+
+
+@media  screen and (max-width : 428px){
+    .cardopsi{
+        height:400px !important;
+    }
+
+    .card-img-top{
+        height: 200px !important;
+    }
+
+    .judulevent{
+        font-size: 12px !important;
+    }
+    .tanggalberita{
+        font-size: 10px !important;
+    }
+}
+

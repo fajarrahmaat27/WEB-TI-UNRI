@@ -28,6 +28,24 @@ body{
     background-color: #fff;
 }
 
+
+.btn-primary {
+    text-decoration: none;
+    padding: 8px 30px;
+     font-size: 16px;
+     background-color: rgb(34, 58, 114);;
+     font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #102138;
+}
+
+.btn-primary:active{
+    color: #000;
+    background-color: #fff;
+}
+
 #akademik-desktop{
     background-image: url(Asset\ 53.png);
     background-repeat: no-repeat;
@@ -138,180 +156,18 @@ background-color: white;
     border:none;
     box-shadow: 5px 5px 10px 3px black;
     border-radius: 0px;
-    height: 480px !important;
+    height: 520px !important;
 }
 
-.imgcard{
-    height: 280px !important;
+.card-img-top{
+    height: 300px !important;
 }
 
-.btnmargin1{
-    margin-top: 40px;
+.btn-primary a{
+    font-family: Poppins !important;
+    padding: 3px 25px;
 }
 
-.btnmargin1ke2{
-    margin-top: 40px;
-}
-
-.btnmargin0{
-    margin-top: 20px;
-}
-
-.btnmargin2{
-    margin-top: 60px;
-}
-
-.btnmargin3{
-    margin-top: 20px;
-}
-
-@media  screen and (max-width : 400px)
-{
-  .imgcard{
-    height: 180px !important;
-  }
-
-  .cardopsi{
-    height: 400px !important;
-  }
-  
-  .judulevent{
-    font-size: 12px !important;
-  }
-
-  .tanggalberita{
-    font-size: 10px !important;
-  }
-
-  .btnmargin0{
-    margin-top: 30px !important;
-  }
-
-  .btnmargin1{
-    margin-top: 50px !important;
-  }
-
-  .btnmargin1ke2{
-    margin-top: 15px !important;
-  }
-
-  .btnmargin2{
-    margin-top: 35px !important;
-  }
-
-  .btnmargin3{
-    margin-top: 30px !important;
-  }
-
-  .btnmargin4{
-    margin-top: 20px !important;
-  }
-
-  .tglberitaopsi{
-    margin-bottom: 20px !important;
-  }
-  
-}
-
-@media  screen and (max-width : 720px)
-{
-  .imgcard{
-    height: 180px !important;
-  }
-
-  .cardopsi{
-    height: 380px !important;
-  }
-  
-  .judulevent{
-    font-size: 14px;
-  }
-
-  .tanggalberita{
-    font-size: smaller;
-  }
-
-  .btnmargin1{
-    margin-top: 20px;
-  }
-
-  .btnmargin1ke2{
-    margin-top: 20px;
-  }
-
-  .btnmargin2{
-    margin-top: 40px;
-  }
-  
-}
-
-@media  screen and (max-width : 1381px)
-{
-  .imgcard{
-    height: 230px !important;
-  }
-
-  .cardopsi{
-    height: 400px !important;
-  }
-  
-  .judulevent{
-    font-size: 14px;
-  }
-
-  .tanggalberita{
-    font-size: smaller;
-  }
-  
-}
-
-@media  screen and (max-width : 1340px)
-{
-  .imgcard{
-    height: 230px !important;
-  }
-
-  .cardopsi{
-    height: 400px !important;
-  }
-  
-  .judulevent{
-    font-size: 14px;
-  }
-
-  .tanggalberita{
-    font-size: 12px;
-  }
-
-  .btnmargin1ke2{
-    margin-top: 10px;
-  }
-  
-}
-
-@media  screen and (max-width : 1318px)
-{
-  .imgcard{
-    height: 230px !important;
-  }
-
-  .cardopsi{
-    height: 400px !important;
-  }
-  
-  .judulevent{
-    font-size: 14px;
-  }
-
-  .tanggalberita{
-    font-size: 12px;
-  }
-
-  .btnmargin1{
-    margin-top: 10px;
-  }
-  
-}
 
 
 
@@ -976,5 +832,163 @@ form.search-desktop{
         background-image: url(akdemikmobile.png);
         background-repeat: no-repeat;
         background-size:auto;
+    }
+}
+
+
+/* responsive card */
+
+@media  screen and (max-width : 1117px){
+    .cardopsi{
+        height:500px !important;
+    }
+
+    .card-img-top{
+        height: 250px !important;
+    }
+}
+
+@media  screen and (max-width : 1001px){
+    .cardopsi{
+        height:480px !important;
+    }
+
+    .card-img-top{
+        height: 230px !important;
+    }
+}
+
+@media  screen and (max-width : 949px){
+    .cardopsi{
+        height:470px !important;
+    }
+
+    .card-img-top{
+        height: 200px !important;
+    }
+}
+
+@media  screen and (max-width : 949px){
+    .cardopsi{
+        height:470px !important;
+    }
+
+    .card-img-top{
+        height: 180px !important;
+    }
+}
+
+@media  screen and (max-width : 855px){
+    .cardopsi{
+        height:490px !important;
+    }
+
+    .card-img-top{
+        height: 180px !important;
+    }
+}
+
+@media  screen and (max-width : 768px){
+    .cardopsi{
+        height:430px !important;
+    }
+
+    .card-img-top{
+        height: 180px !important;
+    }
+}
+
+@media  screen and (max-width : 665px){
+    .cardopsi{
+        height:450px !important;
+    }
+
+    .card-img-top{
+        height: 180px !important;
+    }
+}
+
+@media  screen and (max-width : 624px){
+    .cardopsi{
+        height:450px !important;
+    }
+
+    .card-img-top{
+        height: 180px !important;
+    }
+
+    .judulevent{
+        font-size: 14px;
+    }
+    .tanggalberita{
+        font-size: smaller;
+    }
+}
+
+@media  screen and (max-width : 575px){
+    .cardopsi{
+        height:400px !important;
+    }
+
+    .card-img-top{
+        height: 200px !important;
+    }
+
+    .judulevent{
+        font-size: 14px;
+    }
+    .tanggalberita{
+        font-size: smaller;
+    }
+}
+
+@media  screen and (max-width : 575px){
+    .cardopsi{
+        height:400px !important;
+    }
+
+    .card-img-top{
+        height: 200px !important;
+    }
+
+    .judulevent{
+        font-size: 14px !important;
+    }
+    .tanggalberita{
+        font-size: 12px !important;
+    }
+}
+
+@media  screen and (max-width : 575px){
+    .cardopsi{
+        height:400px !important;
+    }
+
+    .card-img-top{
+        height: 200px !important;
+    }
+
+    .judulevent{
+        font-size: 12px !important;
+    }
+    .tanggalberita{
+        font-size: 10px !important;
+    }
+}
+
+@media  screen and (max-width : 428px){
+    .cardopsi{
+        height:400px !important;
+    }
+
+    .card-img-top{
+        height: 200px !important;
+    }
+
+    .judulevent{
+        font-size: 12px !important;
+    }
+    .tanggalberita{
+        font-size: 10px !important;
     }
 }
