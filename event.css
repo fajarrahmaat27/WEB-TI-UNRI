@@ -660,6 +660,22 @@ form.search-desktop{
     }
 }
 
+@media  screen and (max-width : 575px){
+    .cardopsi{
+        height:400px !important;
+    }
+
+    .card-img-top{
+        height: 200px !important;
+    }
+
+    .judulevent{
+        font-size: 12px !important;
+    }
+    .tanggalberita{
+        font-size: 10px !important;
+    }
+}
 
 @media  screen and (max-width : 428px){
     .cardopsi{
@@ -677,5 +693,4 @@ form.search-desktop{
         font-size: 10px !important;
     }
 }
-
 
