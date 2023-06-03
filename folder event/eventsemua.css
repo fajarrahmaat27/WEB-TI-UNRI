@@ -657,6 +657,7 @@ form.search-desktop{
 }
 
 
+
 @media  screen and (max-width : 428px){
     .cardopsi{
         height:400px !important;
@@ -671,5 +672,20 @@ form.search-desktop{
     }
     .tanggalberita{
         font-size: 10px !important;
+    }
+}
+
+.listevent1{
+    margin-left: 130px;
+}
+@media  screen and (max-width : 428px){
+    .listevent1{
+        margin-left: 25px;
+    }
+}
+
+@media  screen and (max-width : 720px){
+    .listevent1{
+        margin-left: 125px;
     }
 }

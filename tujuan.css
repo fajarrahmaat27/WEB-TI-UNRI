@@ -50,7 +50,32 @@ body{
     box-shadow: 5px 2px 42px 1px rgba(25,28,112,0.7);
    -webkit-box-shadow: 5px 2px 42px 1px rgba(25,28,112,0.7);
    -moz-box-shadow: 5px 2px 42px 1px rgba(25,28,112,0.7);
-}        
+}   
+
+@media  screen and (max-width : 1365px){
+    .tujuan{
+        width: auto;
+        height: auto;
+        font-size: 25px;
+        color: white;
+        padding-top: 45px;
+        border-radius: 84px 84px 84px 84px;
+        -webkit-border-radius: 84px 84px 84px 84px;
+        -moz-border-radius: 84px 84px 84px 84px;
+        -moz-border-radius: 11px 11px 86px 10px;
+        background: #092b55;
+        background: linear-gradient(290deg,#092b55 0%, #0a4d88 80%);
+       background: -webkit-linear-gradient(290deg,#092b55 0%, #0a4d88 80%);
+        background: -moz-linear-gradient(290deg,#092b55 0%, #0a4d88 80%);
+        box-shadow: 5px 2px 42px 1px rgba(25,28,112,0.7);
+       -webkit-box-shadow: 5px 2px 42px 1px rgba(25,28,112,0.7);
+       -moz-box-shadow: 5px 2px 42px 1px rgba(25,28,112,0.7);
+    }   
+
+}
+
+
+
 
 .btn {
     text-decoration: none;
